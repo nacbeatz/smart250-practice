@@ -1,0 +1,28 @@
+.home_title {
+    background-color: yellow; /* HEXADECIMAL #123456 === a-f 0-9*/ 
+    color: #000; 
+}
+#last_title {
+    background-color: red;
+    color: #fff;
+}
+h1, h2, h3 {
+    background-color: gold;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section p {
+    background-color: lightblue;
+    color: #000;
+}
+* {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: red;
+}
+nav a {
+  display: inline;
+}
+.form-group {
+    display: block;
+    padding: 10px
+}
