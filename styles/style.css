@@ -1,9 +1,33 @@
 body {
     background-color:green;
+    display: block;
+}
+header {
+    position: relative;
 }
 main {
-    background-color: rgb(15, 1, 1);
+    background-color: white;
+    display: block;
+    position: relative;
+   
 }
-h2 {
-    background-color: rgb(7, 7, 7);
+nav a {
+    display: inline;
+}
+footer {
+    position: relative;
+    background-color: red;
+}
+#home{
+    background-color: yellow;
+    visibility: visible;
+    position: relative;
+}
+#about{
+    background-color: greenyellow;
+    position: relative;
+}
+#contact{
+    position: relative;
+    background-color: cyan;
 }

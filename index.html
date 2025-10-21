@@ -11,13 +11,13 @@
   <title>My First Web Page</title>
 
   <!-- Link external files -->
-  <link rel="stylesheet" href="styles/test.css"> <!-- External CSS file -->
+  <link rel="stylesheet" href="styles/style.css"> <!-- External CSS file -->
   <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
 
   <!-- Internal CSS (optional) -->
 
   <!-- External JS (optional, can also go in the body) -->
-  <script src="script.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -27,13 +27,29 @@
        <div style="text-align: center; color: darkgreen; background-color: rgb(147, 243, 232); border-radius: 20px;" class="m-3 p-5"> 
         <H1>Welocome to my website</H1>
     </div>
-    <nav>
+    <nav id="main_nav">
       <a href="#home">Home</a> 
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
    <!-- MAIN CONTENT AREA -->
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+   
+  
+  
    <main>
     <!-- SECTION 1 -->
     <section id="home" >
@@ -66,7 +82,7 @@
     </div>
 
     <!-- DISPLAY na VISIBILITY, POSITION -->
-    <section class="contact">
+    <section id="contact">
       <h2 class="home_title" id="last_title">Contact Us</h2>
       <form action="#" method="post"> <!-- DISPLAY: INLINE -->
         
@@ -90,6 +106,21 @@
     </section>
   </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- FOOTER: bottom of the page -->
   <footer>
     <address >
@@ -98,9 +129,5 @@
     <p>&copy; 2025 smart250. All rights reserved.</p>
   </footer>
 
-  <!-- Optional Scripts (placed at bottom for performance) -->
-  <script>
-    console.log("Welcome to My Website!");
-  </script>
 </body>
 </html>
