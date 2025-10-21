@@ -1,9 +1,9 @@
 body {
-    background-color: yellow;
+    background-color:green;
 }
 main {
-    background-color: red;
+    background-color: rgb(15, 1, 1);
 }
 h2 {
-    background-color: white;
+    background-color: rgb(7, 7, 7);
 }
