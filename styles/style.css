@@ -7,3 +7,36 @@ main {
 h2 {
   background-color: white;
 }
+footer {
+  position: absolute;
+  left: 300px;
+}
+div {
+  display: inline;
+  left: 300px;
+
+  position: relative;
+}
+figure {
+  left: 300px;
+  position: relative;
+}
+nav {
+  left: 500px;
+  position: relative;
+}
+h1 {
+  left: 300px;
+  bottom: 530px;
+  position: absolute;
+}
+h2 {
+  left: 300px;
+
+  position: relative;
+}
+h3 {
+  left: 300px;
+
+  position: relative;
+}
