@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+#main_nav a {
+  gap: 20px;
+  padding: 5px;
+}
+
+#logotext {
+  display: flex;
+  align-items: center;
+}
+#textlogo {
+  color: rgb(219, 86, 3);
+}
+
+#main_nav {
+  display: flex;
+  padding: 5px 5px;
+  background-color: #44383a;
+  align-items: center;
+  position: relative;
+  gap: 100px;
+}
+a {
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+}
+main {
+  /*background-color: rgb(9, 137, 63);*/
+  display: block;
+  position: relative;
+  /*border: 2px solid black;*/
+  height: 900px;
+  width: 100%;
+}
+h1 {
+  /*background-color: rgb(164, 204, 18);*/
+  font-size: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.socialmedia {
+  display: flex;
+  position: relative;
+  /*background-color: rgb(126, 16, 204);*/
+  align-items: center;
+  margin-right: 8px;
+}
+#followus {
+  position: absolute;
+  right: 0;
+}
+#susan {
+  text-decoration: underline;
+}
+
+.maincontainer {
+  /*background-color: rgb(78, 3, 78);*/
+  position: relative;
+  display: flex;
+}
+aside {
+  background-color: rgb(190, 192, 191);
+  width: 15%;
+  height: fit-content;
+  padding-top: 9px;
+  position: relative;
+}
+.figtext {
+  /*background-color: bisque;*/
+  position: absolute;
+  right: 0;
+  margin-right: 900px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: rgb(115, 141, 202);
+}

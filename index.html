@@ -11,84 +11,112 @@
   <title>My First Web Page</title>
 
   <!-- Link external files -->
-  <link rel="stylesheet" href="styles/test.css"> <!-- External CSS file -->
+  <link rel="stylesheet" href="styles/style.css"> <!-- External CSS file -->
   <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
 
   <!-- Internal CSS (optional) -->
 
   <!-- External JS (optional, can also go in the body) -->
-  <script src="script.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
  
+
+
+
+
+
+
   <header>
      <div style="text-align: center;">
-       <div style="text-align: center; color: darkgreen; background-color: rgb(147, 243, 232); border-radius: 20px;" class="m-3 p-5"> 
-        <H1>Welocome to my website</H1>
-    </div>
-    <nav>
+    
+    <nav id="main_nav">
       <a href="#home">Home</a> 
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
    <!-- MAIN CONTENT AREA -->
+  
+
+  
+  
    <main>
+    <aside>
+        <h4>Did You Know?</h4>
+        <p>The first website ever created is still online! It was made by Tim Berners-Lee in 1991 and can be visited at <a href="http://info.cern.ch/" target="_blank">info.cern.ch</a>.</p>
+    </aside>
+
+
     <!-- SECTION 1 -->
-    <section id="home" >
-      <h2 class="home_title">Home Section</h2>
-      <p>We are a creative studio focused on design and technology education, inspiring innovation through hands-on learning and modern digital experiences.</p>
-      <figure>
-        <img src="images/img-edit 2.png" alt="Decorative banner" width="400">
-        <figcaption>Our website’s hero image</figcaption>
-      </figure>
+    <section id="hero_section">
+                                    <h1 class="main_title">Welcome to Our Creative Studio</h1>
+
+                                    <section id="home" >
+                                    <h2 class="home_title">Home Section</h2>
+                                        <div class="intro">
+                                                <figure>
+                                                    <img src="images/img-edit 2.png" alt="Decorative banner" width="400">
+                                                    <figcaption>Our website’s hero image</figcaption>
+                                                </figure>
+                                                <p>We are a creative studio focused on design and technology education, inspiring innovationWe are a creative studio focused on design and technology education, inspiring innovation through hands-on learning and modern digital experiences.</p>
+                                        </div>      
+                                    </section>
+
+                                    <!-- SECTION 2 with an ARTICLE -->
+                                    <div id="about">
+                                    <h2 class="home_title">About Section</h2>
+                                    <article>
+                                        <h3>Who We Are</h3>
+                                        <p>We are a creative studio passionate about design and technology education.<br>Our goal is to empower learners and creators with the skills to turn ideas into reality.<br> Through innovative training, modern tools, and hands-on experiences, we make learning design and tech simple, fun, and impactful.</p>
+                                        
+                                    </article>
+
+                                    <!-- ASIDE: supplementary info -->
+                                    <aside>
+                                        <h4>Quick Facts</h4>
+                                        <ul>
+                                        <li>Founded: 2020</li>
+                                        <li>Based in: Belgium</li>
+                                        <li>Specialty: Web Design & AI Tools</li>
+                                        </ul>
+                                    </aside>
+                                    </div>
+
+                                    <!-- DISPLAY na VISIBILITY, POSITION -->
+                                    <section id="contact">
+                                    <h2 class="home_title" id="last_title">Contact Us</h2>
+                                    <form action="#" method="post"> <!-- DISPLAY: INLINE -->
+                                        
+                                    <div class="form-group">
+                                        <label for="name">Name:</label>
+                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label for="message">Message:</label>
+                                        <textarea id="message" name="message"></textarea>
+                                    </div>
+
+                                        <button type="submit">Send Message</button>
+                                    </form>
+                                    </section>
+
     </section>
 
-    <!-- SECTION 2 with an ARTICLE -->
-    <div id="about">
-      <h2 class="home_title">About Section</h2>
-      <article>
-        <h3>Who We Are</h3>
-        <p>We are a creative studio passionate about design and technology education.<br>Our goal is to empower learners and creators with the skills to turn ideas into reality.<br> Through innovative training, modern tools, and hands-on experiences, we make learning design and tech simple, fun, and impactful.</p>
-        
-      </article>
 
-      <!-- ASIDE: supplementary info -->
-      <aside>
-        <h4>Quick Facts</h4>
-        <ul>
-          <li>Founded: 2020</li>
-          <li>Based in: Belgium</li>
-          <li>Specialty: Web Design & AI Tools</li>
-        </ul>
-      </aside>
-    </div>
 
-    <!-- DISPLAY na VISIBILITY, POSITION -->
-    <section class="contact">
-      <h2 class="home_title" id="last_title">Contact Us</h2>
-      <form action="#" method="post"> <!-- DISPLAY: INLINE -->
-        
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-    </div>
 
-    <div class="form-group">
-         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-    </div>
-    <div class="form-group">
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-    </div>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
   </main>
+
+
+
 
   <!-- FOOTER: bottom of the page -->
   <footer>
@@ -98,9 +126,5 @@
     <p>&copy; 2025 smart250. All rights reserved.</p>
   </footer>
 
-  <!-- Optional Scripts (placed at bottom for performance) -->
-  <script>
-    console.log("Welcome to My Website!");
-  </script>
 </body>
 </html>
