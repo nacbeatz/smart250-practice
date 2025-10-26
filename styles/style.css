@@ -3,12 +3,12 @@ body {
 }
 header {
     position: relative;
-    background-color: #49E45B;
+    background-color: #2b0be1;
     height:60px;
-    padding-top:30px;
+    padding-top:50px;
 }
 main {
-    background-color: white;
+    background-color: rgb(99, 135, 227);
     display: block;
     position: relative;
     border: 2px solid black;
@@ -17,13 +17,14 @@ main {
    
 }
 nav a {
-    display: inline;
+    display: block;
+    color:black;
 }
 footer {
     position: relative;
     bottom:0;
 
-    background-color: red;
+    background-color: rgb(232, 28, 174);
 }
 #home{
  
