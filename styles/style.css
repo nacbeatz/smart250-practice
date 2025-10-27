@@ -1,9 +1,35 @@
-body {
-  background-color: white;
+.vip {
+  position: absolute;
+  right: 450px;
+  height: 10px;
 }
-main {
-  background-color: wheat;
+#menu-contain {
+  position: absolute;
+  left: 20px;
+  background-color: bisque;
+  width: 160px;
 }
-h2 {
-  background-color: white;
+.id2 {
+  position: absolute;
+  bottom: -00;
+  text-align: center;
+}
+#how-contain {
+  padding: 12px;
+  word-spacing: 40px;
+  font-size: 10px;
+}
+
+.peter {
+  position: absolute;
+  left: 250px;
+  bottom: 130px;
+  width: 700px;
+  height: 0;
+  text-align: center;
+}
+figure {
+  position: absolute;
+  left: 200px;
+  bottom: 500;
 }
