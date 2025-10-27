@@ -33,3 +33,7 @@ figure {
   left: 200px;
   bottom: 500;
 }
+footer {
+  position: absolute;
+  bottom: 0px;
+}
