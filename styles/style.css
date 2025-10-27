@@ -1,9 +1,87 @@
 body {
-    background-color:green;
+
+    background-color: black;
 }
-main {
-    background-color: rgb(15, 1, 1);
+nav a {
+    display: inline;
+    position: relative;
+    padding: 22px;
+}header{
+    display: flex;
+
 }
-h2 {
-    background-color: rgb(7, 7, 7);
+#main_nav{
+    display: flex;
+    background-color: blanchedalmond;
+    position: relative;
+    padding: 0px;
+    align-items: center;
+
+}#logotext{
+    display: flex;
+
+    align-items: center;
+    padding: 3px;
+
+
 }
+#textlogo {
+    display: block;
+    align-items: center;
+    padding: 30px;
+}
+main{
+    background-color:pink;
+}
+{
+    background-color: red;
+}
+.socialmedia {
+    display: flex;
+    position: relative;
+    background-color:red;
+    align-items: center;
+    padding: 0px;
+
+}
+#followus{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+h1{
+    background-color: greenyellow;
+}
+#Susan {
+    text-decoration: underline;
+}
+aside{
+  background-color:green;
+    position: relative;
+    display: block;
+   margin-top: 50px;
+ margin-inline-start: 25px;
+}
+.maincontainer{
+    display: flex;
+}
+     
+p{
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-left: 300px;
+    background-color: aqua;
+}
+figure{
+    background-color:blue;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: -185px;
+    
+}
+footer{
+    background-color: yellow;
+    align-items:first baseline;
+}
+     
