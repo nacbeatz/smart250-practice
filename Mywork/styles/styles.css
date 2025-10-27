@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
   background-color: white;
   color:black;
   margin: 0;
@@ -15,11 +16,15 @@ nav a {
     padding: 15px;
 }
 header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 40px;
   margin: 20px;
 }
 
  p {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
   display: block;
   font-size: 16px;
   color: black;
@@ -40,6 +45,7 @@ aside {
   background-color: #E5E5E5;
   padding: 20px;
   height: 30%;
+  border-radius: 10px;
 }
 
 aside ul li {
@@ -53,6 +59,7 @@ article {
   margin-left: 320px;
   background: #fff;
   width: 55%;
+  border-radius: 10px;
 }
 
 figure {
@@ -63,6 +70,7 @@ figure {
 
 figure img {
   width: 100%;
+  border-radius: 10px;
 }
 
 figcaption {
@@ -78,6 +86,8 @@ section {
 }
 
 section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   color: black;
   margin-bottom: 10px;
   font-size: 22px;
@@ -96,10 +106,20 @@ footer {
   padding: 20px;
   display: block;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 10px;
 }
 footer p {
 color: #E5E5E5;
 }
+button[type="submit"],
+input[type="submit"] {
+  background-color: #14213D;
+  color: #ffffff;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
 
+}
 
