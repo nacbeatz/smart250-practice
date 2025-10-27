@@ -11,35 +11,37 @@
   <title>My Test Web Page</title>
 
   <!-- Link external files -->
-  <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+  <link rel="stylesheet" href="styles/tests.css"> <!-- External CSS file -->
   <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
 
-  <!-- Internal CSS (optional) -->
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    header, footer { background: #222; color: #fff; padding: 1em; text-align: center; }
-    main { padding: 20px; }
-    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
-    section { margin-bottom: 20px; }
-    article { background: #f9f9f9; padding: 10px; border-radius: 5px; }
-  </style>
 
   <!-- External JS (optional, can also go in the body) -->
   <script src="script.js" defer></script>
 </head>
+
+
+
 <body>
     <header>
         <h1> GRIIN COFFEE SHOP</h1>
+        <nav>
+          <nav href="#home">Home</nav>
+          <nav href="#location">Locations</nav>
+          <nav href="#order">Place Order</nav>
+          <nav href="#contact">Contact Us</nav>
+        </nav>
     </header>
+
+
     <main>
         <p>By <strong><em>Ngabo Eric I.</em></strong>
-          <figure>
+          <figure id="social">
             <image src="pinterest.jpeg" width="50" height="50"> <image src="x.jpeg" width="50" height="30"></image><image src="fb.jpeg" width="50" height="50"></image><image src="fax.jpeg" width="50" height="50"></image>
           </figure>
     <section id="About our coffee"> <u><em>About our coffee</em></u>
       <p><strong>Griin coffee</strong> is the difference among the coffees. It's a coffee harvested in high mountains, well preserved and presented to you with natural amazing taste.</p>
     <figure>
-      <image src="smart250n-practice/coffee shop photo.jpeg" alt="Photo unavailable but you can still order your coffee" width="300" height="200"></image>
+      <image src="coffee shop photo.jpeg" alt="Photo unavailable but you can still order your coffee" width="300" height="200"></image>
       <figcaption><em>You can order our coffee from any of our outlet. we can also deliver wherever less than 1km</em></figcaption>
     </figure>
     <p>We have opened 12 branches across the City of kigali, branded with our reknowned logo. You can visit us or order through our app available on google playstore or apple store as GRIIN COFFEE.</p>
@@ -85,13 +87,13 @@
         <input type="text" id="email" name="mail" placeholder="name@gmail.com" required>
         <lebel for="order"> <strong>Place your Order:</strong></lebel>
         <textarea id="message" name="message"></textarea>
-        <lebel>
-          <lebel for="delivery"> Delivery request:</lebel>
-          <input type="radio" name="delivery" value="yes"> Yes
+        
+        <lebel for="delivery">Delivery request:</lebel>
+        <input type="radio" name="delivery" value="yes"> Yes
         </lebel>
-        <lebel>
+        
           <input type="radio" name="delively" value="no"> No
-        </lebel>
+        
         <input type="submit" value="send">
         
       </form>

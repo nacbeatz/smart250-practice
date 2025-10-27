@@ -15,7 +15,7 @@ body {
 
 header {
   background: linear-gradient(135deg, #6ee7b7, #3b82f6);
-  color: white;
+  color: red;
   padding: 40px 20px;
   text-align: center;
   border-bottom-left-radius: 40px;

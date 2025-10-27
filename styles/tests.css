@@ -1,0 +1,52 @@
+body { 
+    family: Arial, sans-serif; 
+    margin: 0; 
+}
+
+
+header, footer { 
+    background: #222; 
+    color: #fff;
+    padding: 1em; 
+    text-align: center; 
+}
+
+
+main { 
+    padding: 20px; 
+}
+
+nav { 
+    color: #fff; 
+    margin: 10px; 
+    text-decoration: none;
+    display: inline; 
+}
+
+
+section { 
+        margin-bottom: 20px; 
+}
+
+article { 
+    background: #f9f9f9; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+h1 {
+    color: red;
+}
+
+#social {
+    align: right;
+}
+
+form {
+    display: block;
+    color:#000;
+
+}
+input {
+    display: block;
+}
