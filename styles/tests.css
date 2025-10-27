@@ -1,11 +1,10 @@
-body { 
-    family: Arial, sans-serif; 
+body {  
     margin: 0; 
 }
 
 
 header, footer { 
-    background: #222; 
+    background: #411111; 
     color: #fff;
     padding: 1em; 
     text-align: center; 
@@ -38,9 +37,7 @@ h1 {
     color: red;
 }
 
-#social {
-    align: right;
-}
+
 
 form {
     display: block;
