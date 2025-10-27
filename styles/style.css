@@ -1,88 +1,50 @@
-body {
-    display: block;
-}
-header {
-    position: relative;
-    background-color: #49E45B;
-    height:60px;
-    padding-top:30px;
-}
-main {
-    background-color: white;
-    display: block;
-    position: relative;
-    border: 2px solid black;
-    height: 800px;
-    width: 100;
-   
-}
-nav a {
-    display: inline;
-}
-footer {
-    position: relative;
-    bottom:0;
 
-    background-color: red;
+.vip{
+position: absolute;
+    right: 450px;
+    height: 10px;
+    
 }
-#home{
- 
-    visibility: visible;
-    position: relative;
-    background-color: white;
-}
-#about{
-    background-color: greenyellow;
-    position: relative;
-}
-#contact{
-    position: relative;
-    background-color: cyan;
-}
-#hero_section{
+#menu-contain{
     position: absolute;
-    background-color: yellow;
-    padding: 10px;
-    border-color: #A100E0;
-    border-style: solid;
-    border-width: 3px;
-    right:0;
-    width: 65%;
+    left:20px;
+    background-color: lab(69.61% 0 -0.01 / 0.233);
+    width: 160px;
+
+}
+.id2{
+position: absolute;
+bottom: -00;
+text-align: center;
+
+#how-contain{
+    background-color: a;
+    display:block ;
+
+}
+#vivo-tip{
+    background-color: yelw;
+    font-size: 10px;
+}
+
+}
+#how-contain{
+    padding: 12px;
+    background-color: rgb(249, 249, 249);
+    word-spacing:40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:10px;
+    border: 3px solid #f1f2f3;
 
 }
 
-aside{
-    background-color: #FF0000;
+.jado{
     position: absolute;
-    padding: 10px;
-    left:0;
-    width: 30%;
-    height:97%;
-}
-.intro{
-    position: relative;
-    background-color: orange;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 220px;
-}
-figure{
-    position: absolute;
-    width: 30%;
-    bottom: 0;
-    left:0;
-    border: 2px solid black;
-}
-
-figure img{
-    width: 100%;   
-} 
-
-#home p{
-    position: absolute;
-    width: 60%;
-    right: 0;
+    left: 190px;
+    bottom: 10px;
+    width: 700px;
+   height: 0;
+   text-align: center;
+  
+    
 }
