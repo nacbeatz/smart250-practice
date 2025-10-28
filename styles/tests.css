@@ -14,7 +14,7 @@ header, footer {
 
 
 main { 
-    background-color:#1cd783;
+    
     margin: 2px;
     border:#000;
     border-radius: 3px;
@@ -48,7 +48,7 @@ h1 {
 
 
 #About {
-    background-color: #0e43c6;
+    
     
     position: relative;
     height: 300px;
@@ -76,12 +76,12 @@ footer {
 }
 
 #image {
-    background-color: aqua;
+    
     position: relative;
     
 }
 #word {
-    background-color: #9d8181;
+    
     position: absolute;
     right: 0;
     width: 50%;
@@ -89,7 +89,7 @@ footer {
     
 
 #Myth {
-    background-color: #fff;
+    
     padding: 10px;
     position: relative;
     height: 47%;
@@ -107,13 +107,16 @@ aside {
     left: 0;
     width: 30%;
     margin: 5px;
-    top: 15px;
+    top: 35px;
     height: 600px;
 }
 
 .content {
-    background-color: yellow;
+    
     position: absolute;
     right: 0;
     width: 65%;
+    border: #411111;
+    border-radius: 2px;
+    border-style: solid;
 }
