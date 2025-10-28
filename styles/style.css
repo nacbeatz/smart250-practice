@@ -4,18 +4,44 @@ body {
 header {
     position: relative;
     background-color: #49E45B;
-    height:60px;
-    padding-top:30px;
+    height:160px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
 }
 main {
     background-color: white;
-    display: block;
+    display: flex;
+    flex-direction:row;
     position: relative;
     border: 2px solid black;
     height: 800px;
-    width: 100;
-   
 }
+
+aside      {
+    width: 20%; 
+}
+#hero_section{
+    width: 80%
+ 
+}
+.main_nav{
+ 
+ display: block;
+ border: #FF0000 solid 2px;
+ height: 60px;
+ width: 100%;
+}
+#box1{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 nav a {
     display: inline;
 }
@@ -39,26 +65,8 @@ footer {
     position: relative;
     background-color: cyan;
 }
-#hero_section{
-    position: absolute;
-    background-color: yellow;
-    padding: 10px;
-    border-color: #A100E0;
-    border-style: solid;
-    border-width: 3px;
-    right:0;
-    width: 65%;
 
-}
 
-aside{
-    background-color: #FF0000;
-    position: absolute;
-    padding: 10px;
-    left:0;
-    width: 30%;
-    height:97%;
-}
 .intro{
     position: relative;
     background-color: orange;
