@@ -77,14 +77,16 @@ footer {
 
 #image {
     
-    position: relative;
+    position: absolute;
+    left: 0;
+    width:60%;
     
 }
 #word {
     
     position: absolute;
-    right: 0;
-    width: 50%;
+    right: 30px;
+    width: 35%;
 }
     
 
@@ -92,7 +94,7 @@ footer {
     
     padding: 10px;
     position: relative;
-    height: 47%;
+    height: 30%;
     padding-bottom: 10px;
 }
 #icon {
@@ -107,15 +109,15 @@ aside {
     left: 0;
     width: 30%;
     margin: 5px;
-    top: 35px;
+    top: 25px;
     height: 600px;
 }
 
 .content {
     
     position: absolute;
-    right: 0;
-    width: 65%;
+    right: 150px;
+    width: 55%;
     border: #411111;
     border-radius: 8px;
     border-style: solid;
