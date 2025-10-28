@@ -58,3 +58,18 @@ nav {
   right: 400px;
   display: inline;
 }
+#facebook {
+  position: absolute;
+  left: 800px;
+  top: 100px;
+}
+#instagram {
+  position: absolute;
+  left: 850px;
+  top: 100px;
+}
+#twitter {
+  position: absolute;
+  left: 900px;
+  top: 100px;
+}
