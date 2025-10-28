@@ -37,3 +37,12 @@ footer {
   position: absolute;
   bottom: 0px;
 }
+nav {
+  background-color: skyblue;
+}
+#Social-Media {
+  background-color: darkblue;
+  position: absolute;
+  right: 400px;
+  display: inline;
+}
