@@ -1,18 +1,26 @@
 body {  
-    margin: 0; 
+    background-color: #9d8181;
+    
 }
 
 
 header, footer { 
     background: #411111; 
     color: #fff;
-    padding: 1em; 
-    text-align: center; 
+    padding: 5px; 
+    text-align: center;
+    position:relative; 
 }
 
 
 main { 
-    padding: 20px; 
+    background-color:#1cd783;
+    margin: 2px;
+    border:#000;
+    border-radius: 3px;
+    height: 800px;
+    position: relative;
+    visibility: visible; 
 }
 
 nav { 
@@ -24,11 +32,11 @@ nav {
 
 
 section { 
-        margin-bottom: 20px; 
+        margin: 20px; 
 }
 
 article { 
-    background: #f9f9f9; 
+    background: #c43e3e; 
     padding: 10px; 
     border-radius: 5px; 
 }
@@ -39,11 +47,71 @@ h1 {
 
 
 
-form {
-    display: block;
-    color:#000;
+#About {
+    background-color: #0e43c6;
+    
+    position: relative;
+    height: 300px;
+}
+
+
+
+#About figure {
+    position: absolute;
 
 }
-input {
-    display: block;
+#social {
+    
+    
+   
+}
+
+
+footer { 
+    background: #411111; 
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    
+}
+
+#image {
+    background-color: aqua;
+    position: relative;
+    
+}
+#word {
+    background-color: #9d8181;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+    
+
+#Myth {
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    height: 47%;
+    padding-bottom: 10px;
+}
+#icon {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+aside {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    width: 30%;
+}
+
+.content {
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    width: 65%;
 }
