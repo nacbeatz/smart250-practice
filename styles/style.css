@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("fonts/Lobster-Regular.ttf");
+}
+body {
+  font-family: "Lobster-Regular.ttf", sans-serif;
+}
+h1,
+h3 {
+  font-family: "Lobster-Regular.ttf", sans-serif;
+}
+
 .vip {
   position: absolute;
   right: 450px;
