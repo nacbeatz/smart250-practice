@@ -15,6 +15,7 @@ nav {
   padding: 15px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   border-bottom: #e5e5e5 solid 4px;
@@ -40,6 +41,7 @@ header p {
 .author_info {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 6.2%;
   gap: 55.7%;
@@ -49,6 +51,7 @@ header p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   gap: 25px;
   margin-left: 33px;
   margin-top: 0px;
@@ -62,15 +65,16 @@ p {
 }
 
 main {
-  margin: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   margin-left: 6.2%;
+  margin-top: 2%;
 }
 
 aside {
-  width: 20%;
+  width: fit-content;
   background-color: #e5e5e5;
   padding: 20px;
   height: 30%;
@@ -83,7 +87,7 @@ aside ul li {
   border-left: 3px solid #14213d;
 }
 article {
-  width: 100%;
+  width: fit-content;
   border-radius: 10px;
 }
 figure {
