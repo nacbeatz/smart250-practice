@@ -9,8 +9,10 @@ nav a {
     display: flex;
     background-color: violet;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+
+
     
 
 
@@ -26,22 +28,21 @@ nav a {
 header{
    
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     background-color: brown;
-    padding:5px;
-    
-
-    
+    padding:0px;
+    gap: 50px;
 
 
 }
 #main_nav{
     background-color:blanchedalmond;
    display: flex ;
-   padding: 5px;
+   padding: 0px;
    align-items: flex-end;
-   justify-content: flex-end;
+   justify-content: flex-start;
+   gap: 0px;
  
 
  }
