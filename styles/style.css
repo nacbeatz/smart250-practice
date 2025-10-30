@@ -9,67 +9,51 @@ h1,
 h3 {
   font-family: "Lobster-Regular.ttf", sans-serif;
 }
-
-.vip {
-  position: absolute;
-  right: 450px;
-  height: 10px;
-}
 #menu-contain {
-  position: absolute;
-  left: 20px;
-  background-color: bisque;
-  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
-.id2 {
-  position: absolute;
-  bottom: -00;
-  text-align: center;
+aside {
+  background-color: bisque;
+  width: 200px;
+  height: 350px;
+  font-size: 20px;
 }
 #how-contain {
-  padding: 12px;
-  word-spacing: 40px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .peter {
-  position: absolute;
-  left: 250px;
-  bottom: 130px;
-  width: 700px;
-  height: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
-figure {
-  position: absolute;
-  left: 200px;
-  bottom: 500;
+
+nav {
+  display: flex;
+  background-color: skyblue;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+h4 {
+  left: 100px;
 }
 footer {
-  position: absolute;
-  bottom: 0px;
-}
-nav {
   background-color: skyblue;
-}
-#Social-Media {
-  background-color: darkblue;
-  position: absolute;
-  right: 400px;
-  display: inline;
-}
-#facebook {
-  position: absolute;
-  left: 800px;
-  top: 100px;
-}
-#instagram {
-  position: absolute;
-  left: 850px;
-  top: 100px;
-}
-#twitter {
-  position: absolute;
-  left: 900px;
-  top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
