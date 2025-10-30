@@ -1,26 +1,51 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Sora:wght@400;700&display=swap');
-body {font-family: 'Sora', sans-serif;
-    
 
+
+body{
     background-color: black;
 }
 nav a {
-    display: inline;
-    position: relative;
-    padding: 22px;
-}header{
+    padding: 5px;
     display: flex;
+    background-color: violet;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+
+
+
+   
+ 
+   
+
+  
+
+}
+header{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: brown;
+    padding:5px;
+    
+
+    
+
 
 }
 #main_nav{
-    display: flex;
-    background-color: blanchedalmond;
-    position: relative;
-    padding: 0px;
-    align-items: center;
+    background-color:blanchedalmond;
+   display: flex ;
+   padding: 5px;
+   align-items: flex-end;
+   justify-content: flex-end;
+ 
 
-}#logotext{
+ }
+ #logotext{
     display: flex;
 
     align-items: center;
@@ -29,7 +54,8 @@ nav a {
 
 }
 #textlogo {
-    display: block;
+   display: flex;
+   justify-content: flex-start;
     align-items: center;
     padding: 30px;
 }
@@ -72,7 +98,7 @@ aside{
 }
      
 p{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Merriweather' , sans-serif;
     margin-right: 400px;
     margin-top: 0px;
     margin-left: 300px;
@@ -82,7 +108,7 @@ figure{
     background-color:blue;
     margin-left: 300px;
     margin-right: 400px;
-    margin-top: -185px;
+    margin-top: -205px;
     
 }
 footer{
