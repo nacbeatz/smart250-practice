@@ -14,20 +14,23 @@ header, footer {
 
 
 main { 
-    
+    display: flex;
+    flex-direction: row;
     margin: 2px;
     border:#000;
     border-radius: 3px;
     height: 800px;
-    position: relative;
-    visibility: visible; 
+     
 }
 
 nav { 
-    color: #fff; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: blue; 
     margin: 10px; 
-    text-decoration: none;
-    display: inline; 
+    text-decoration: none; 
 }
 
 
@@ -66,10 +69,8 @@ footer {
     background: #411111; 
     color: #fff;
     text-align: center;
-    position: relative;
     padding: 10px;
-    bottom: 700px;
-    top: 800px
+
     
     
     
@@ -100,25 +101,25 @@ footer {
 #icon {
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 130px;
 }
 
 aside {
-    visibility: visible;
-    position: absolute;
-    left: 0;
+   
+    
     width: 30%;
     margin: 5px;
-    top: 25px;
-    height: 600px;
+    
 }
 
 .content {
     
-    position: absolute;
-    right: 150px;
-    width: 55%;
+    margin-right: 240px;
     border: #411111;
     border-radius: 8px;
     border-style: solid;
+}
+#social{
+    display: flex;
+    justify-content: space-between;
 }
