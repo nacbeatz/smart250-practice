@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: black;
+   
 }
 nav a {
     padding: 5px;
@@ -28,14 +28,14 @@ nav a {
 header{
    
  
-    background-color: brown;
+   
     padding:0px;
   
 
 
 }
 #main_nav{
-    background-color:blanchedalmond;
+    
    display: flex ;
    padding: 0px;
    align-items: center;
@@ -62,7 +62,6 @@ header{
     padding: 30px;
 }
 main{
-    background-color:pink;
 }
 {
     background-color: red;
@@ -70,7 +69,7 @@ main{
 .socialmedia {
     display: flex;
     position: relative;
-    background-color:red;
+   
     align-items: center;
     padding: 0px;
 
@@ -81,15 +80,12 @@ main{
     right: 0;
     margin-right: 10px;
 }
-h1{
-     
-    background-color: greenyellow;
-}
+
 #Susan {
     text-decoration: underline;
 }
 aside{
-  background-color:green;
+
     position: relative;
     display: block;
    margin-top: 50px;
@@ -104,17 +100,17 @@ p{
     margin-right: 400px;
     margin-top: 0px;
     margin-left: 300px;
-    background-color: aqua;
+  
 }
 figure{
-    background-color:blue;
+  
     margin-left: 300px;
     margin-right: 400px;
     margin-top: -205px;
     
 }
 footer{
-    background-color: yellow;
+    
     align-items:first baseline;
 }
      
