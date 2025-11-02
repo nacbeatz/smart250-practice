@@ -35,28 +35,34 @@ main{
 .header{
     background-color: blue;
     margin: 0;
+    display: flex;
     grid-column: 1/3;
     align-items: center;
+    justify-content: center;
 }
 
 .text_1 {
     background-color: brown;
     margin: 0;
     grid-column: 1/3;
-    position: flex;
+    display: grid;
     align-items: center;
 }
 
 .text_2 {
     background-color: brown;
     margin: 0;
+    display: grid;
     grid-column: 50%;
     align-items: center; 
 }
 .aside {
     background-color:green;
     margin: 0;
+    display: grid;
     grid-column: 50%;
+    align-items: center;
+
 } 
 
 .footer {
