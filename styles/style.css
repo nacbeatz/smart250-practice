@@ -39,7 +39,7 @@ footer {
     position: relative;
     bottom:0;
     background: linear-gradient(300deg, rgb(244, 245, 214), olive);
-    ;
+    text-align: center;
 }
 
 #about{
@@ -93,6 +93,11 @@ h2{
     font-family: Lobster, sans-serif;
     border-radius: 20px;
     width: 50%;
-    
+   
+}
+.title{
+    width: 40%;
+    margin: 10px auto;
+    margin-left: 300px;
 }
 

@@ -1,0 +1,70 @@
+
+
+body {
+    display:flex;
+    flex-flow: column wrap;
+}
+header {
+    display: flex;
+    flex-direction: row;
+   
+    background: linear-gradient(300deg, rgb(244, 245, 214), olive);
+    box-shadow: 0 2px 5px #b8bdb7;
+}
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+
+}
+aside{
+    background-color: #dddada;
+    width: 25%;
+    height:35%;
+    border-left: 2px solid black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-stretch;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    
+    position: relative;
+    bottom:0;
+    background: linear-gradient(300deg, rgb(244, 245, 214), olive);
+    text-align: center;
+}
+
+
+
+.form-group{
+    margin-bottom: 15px;
+}
+h2{
+    text-align: center;
+    background-color: olive;
+    font-family: Lobster, sans-serif;
+    border-radius: 20px;
+    width: 50%;
+   
+}
+
+
