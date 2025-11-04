@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("fonts/Lobster-Regular.ttf");
+}
 body {
+<<<<<<< HEAD
     display: block;
 }
 <<<<<<< Updated upstream
@@ -22,6 +27,13 @@ main {
 h1,h3 {
   font-family: "Lobster-Regular.ttf", sans-serif;
   
+=======
+  font-family: "Lobster-Regular.ttf", sans-serif;
+}
+h1,
+h3 {
+  font-family: "Lobster-Regular.ttf", sans-serif;
+>>>>>>> hp-b
 }
 #menu-contain {
   display: flex;
@@ -34,6 +46,7 @@ aside {
   width: 200px;
   height: 350px;
   font-size: 20px;
+<<<<<<< HEAD
   padding:20px;
   border:0;
 }
@@ -185,3 +198,42 @@ header  {
  
   }
 >>>>>>> Stashed changes
+=======
+}
+#how-contain {
+  font-size: 15px;
+}
+
+.peter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  background-color: skyblue;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+h4 {
+  left: 100px;
+}
+footer {
+  background-color: skyblue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+>>>>>>> hp-b
