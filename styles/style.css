@@ -1,6 +1,7 @@
 body {
     display: block;
 }
+<<<<<<< Updated upstream
 header {
     position: relative;
     background-color: #49E45B;
@@ -17,6 +18,75 @@ main {
     position: relative;
     border: 2px solid black;
     height: 800px;
+=======
+h1,h3 {
+  font-family: "Lobster-Regular.ttf", sans-serif;
+  
+}
+#menu-contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+aside {
+  background-color: bisque;
+  width: 200px;
+  height: 350px;
+  font-size: 20px;
+  padding:20px;
+  border:0;
+}
+aside p {   
+padding-left: 10px;
+margin-bottom: 20px;
+font-size:16px;
+}
+
+/*aside p:nth-child(even) {
+  border: 2px solid red;
+} 
+aside p:nth-child(odd) {
+    border: 2px solid green;
+  }   
+*/
+  aside p:nth-child(odd)::before {
+    content: "";
+    position: absolute;
+    width:10px;
+    height:10px;
+    margin-top:5px;
+    margin-left:-16.5px;
+    background-color: gray;
+  }
+  aside p:nth-child(even)::before {
+    content: "";
+    position: absolute;
+    width:10px;
+    height:10px;
+    margin-top:5px;
+    margin-left:-16.5px;
+    background-color: red;
+    border-radius:50%;  
+  }
+ 
+
+#article-menu   {
+  border-left: 3px solid gray;
+}  
+#aside-title {
+  margin-bottom: 30px;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+#how-contain {
+  font-size: 15px;
+>>>>>>> Stashed changes
 }
 
 aside      {
@@ -46,6 +116,7 @@ nav a {
     display: inline;
 }
 footer {
+<<<<<<< Updated upstream
     position: relative;
     bottom:0;
 
@@ -94,3 +165,23 @@ figure img{
     width: 60%;
     right: 0;
 }
+=======
+  background-color: skyblue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 10px;
+}
+header  {
+    border: 1px solid red;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  main {
+    border: 1px solid blue;
+   
+ 
+  }
+>>>>>>> Stashed changes
