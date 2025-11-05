@@ -1,125 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Metadata section: provides info about the document -->
-  <meta charset="UTF-8"> <!-- Character encoding (supports all languages) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive scaling on mobile -->
-  <meta name="description" content="Learn the full structure of a web page in HTML5.">
-  <meta name="author" content="Crox Studios">
-  
-  <!-- Page title (appears on browser tab) -->
-  <title>My First Web Page</title>
+<html lang="rw">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INYANDIKO</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#">HOME</a>
+        <a href="#">AMAKURU</a>
+        <a href="#">IMIKINO</a>
+        <a href="#">INDIRIMBO</a>
+        <a href="styles/grid.html">GRID</a>
+      </nav>
+    </header>
 
-  <!-- Link external files -->
-  <link rel="stylesheet" href="styles/style.css"> <!-- External CSS file -->
-  <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
+    <main class="main">
+      <!-- sidebar / aside -->
+      <aside class="asidee">
+        <h3>Ese warubizi?</h3>
+        <ul>
+          <li>twubaka website</li>
+          <li>tubaka yt channel</li>
+          <li>twigisha forex trading</li>
+          <li>ducyemura ibibazo byose bya phone</li>
+        </ul>
+        <p class="contact"><strong>hamarara:</strong> 0722248567</p>
+      </aside>
 
-  <!-- Internal CSS (optional) -->
+      <!-- main article area -->
+      <section class="content">
+        <h1 class="titlee">INYANDIKO.COM — AMAKURU AGEZWEHO MU RWANDA</h1>
 
-  <!-- External JS (optional, can also go in the body) -->
-  <script src="js/script.js" defer></script>
-</head>
+        <figure class="logo">
+          <img
+            src="IMAGES/inyndk.jpg"
+            alt="Logo ya INYANDIKO"
+            width="600"
+            height="200"
+          />
+          <figcaption>logo image ya inyandiko.com</figcaption>
+        </figure>
 
-<body>
- 
- <header>
-     <div style="text-align: center;">
-    
-    <nav id="main_nav">
-      <a href="#home">Home</a> 
-      <a href="#about">About</a>
-      <a href="#contact">Contact us</a>
-    </nav>
-  </header>
-   <!-- MAIN CONTENT AREA -->
-  
+        <article class="article">
+          <h2>Lionel Messi yongereye amasezerano muri Inter Miami</h2>
+          <p>
+            Rutahizamu w’Umunya-Argentine, Lionel Messi, yongereye amasezerano
+            azatuma ageza imyaka 41 akiri umukinnyi wa Inter Miami yo muri Leta
+            Zunze Ubumwe za Amerika. Messi yasinye indi myaka itatu izarangira
+            mu 2028 nk’uko byatangajwe n’ikipe ya Inter Miami. Uyu mukinnyi
+            yatsinze ibitego 71 mu mikino 82, atanga indi mipira 37 yavuyemo
+            ibitego, kuva aje muri Inter Miami mu 2023 avuye muri Paris
+            Saint-Germain yo mu Bufaransa.
+          </p>
+        </article>
+      </section>
+    </main>
 
-  
-  
-   <main>
-    <aside>
-        <h4>Did You Know?</h4>
-        <p>The first website ever created is still online! It was made by Tim Berners-Lee in 1991 and can be visited at <a href="http://info.cern.ch/" target="_blank">info.cern.ch</a>.</p>
-    </aside>
-
-
-    <!-- SECTION 1 -->
-    <section id="hero_section">
-                                    <h1 class="main_title">Welcome to Our Creative Studio</h1>
-
-                                    <section id="home" >
-                                    <h2 class="home_title">Home Section</h2>
-                                        <div class="intro">
-                                                <figure>
-                                                    <img src="images/img-edit 2.png" alt="Decorative banner" width="400">
-                                                    <figcaption>Our website’s hero image</figcaption>
-                                                </figure>
-                                                <p>We are a creative studio focused on design and technology education, inspiring innovationWe are a creative studio focused on design and technology education, inspiring innovation through hands-on learning and modern digital experiences.</p>
-                                        </div>      
-                                    </section>
-
-                                    <!-- SECTION 2 with an ARTICLE -->
-                                    <div id="about">
-                                    <h2 class="home_title">About Section</h2>
-                                    <article>
-                                        <h3>Who We Are</h3>
-                                        <p>We are a creative studio passionate about design and technology education.<br>Our goal is to empower learners and creators with the skills to turn ideas into reality.<br> Through innovative training, modern tools, and hands-on experiences, we make learning design and tech simple, fun, and impactful.</p>
-                                        
-                                    </article>
-
-                                    <!-- ASIDE: supplementary info -->
-                                    <aside>
-                                        <h4>Quick Facts</h4>
-                                        <ul>
-                                        <li>Founded: 2020</li>
-                                        <li>Based in: Belgium</li>
-                                        <li>Specialty: Web Design & AI Tools</li>
-                                        </ul>
-                                    </aside>
-                                    </div>
-
-                                    <!-- DISPLAY na VISIBILITY, POSITION -->
-                                    <section id="contact">
-                                    <h2 class="home_title" id="last_title">Contact Us</h2>
-                                    <form action="#" method="post"> <!-- DISPLAY: INLINE -->
-                                        
-                                    <div class="form-group">
-                                        <label for="name">Name:</label>
-                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="email">Email:</label>
-                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                                    </div>
-                                    <div class="form-group">
-
-                                        <label for="message">Message:</label>
-                                        <textarea id="message" name="message"></textarea>
-                                    </div>
-
-                                        <button type="submit">Send Message</button>
-                                    </form>
-                                    </section>
-                                    <p>WE LOVE YOU</p>
-
-    </section>
-
-
-
-
-  </main>
-
-
-
-
-  <!-- FOOTER: bottom of the page -->
-  <footer>
-    <address >
-      Contact us at <a href="mailto:fredmugisha094@gmail.com">irasumedia@gmail.com</a>
-    </address>
-    <p>&copy; 2025 smart250. All rights reserved.</p>
-  </footer>
-
-</body>
+    <footer class="site-footer">
+      <address>&copy; 2025 INYANDIKO — All rights reserved</address>
+    </footer>
+  </body>
 </html>
