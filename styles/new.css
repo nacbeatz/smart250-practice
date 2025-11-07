@@ -111,3 +111,45 @@ article {
   height: 300px;
   margin-left: 335px;
 }
+.btn {
+  position: absolute;
+  left: 100px;
+  width: 150px;
+  height: 45px;
+  border: 2px SOLID blue;
+  border-radius: 10px;
+  background-color: skyblue;
+  font-size: 16px;
+
+  /*transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;*/
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: red;
+  transform: translateY(-10px);
+  color: white;
+}
+main {
+  position: absolute;
+  color: blue;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+.heading1 {
+  /*animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-direction: reverse;*/
+}
