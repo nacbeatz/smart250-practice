@@ -1,0 +1,85 @@
+* {
+  margin: 1px;
+  padding: 5px;
+  background-color: rgb(160, 174, 202);
+}
+.akariho {
+  margin-left: 700px;
+  padding: 20px;
+  border-width: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(185, 77, 0);
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
+
+.grid-header {
+  display: grid;
+  font-size: 40px;
+  text-align: center;
+}
+
+.grid-header-1 {
+  background-color: blue;
+  border-radius: 5px;
+}
+.grid-article {
+  background-color: crimson;
+  height: 805px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+.grid-box {
+  font-size: 40px;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(231, 218, 214);
+}
+.grid-item-1 {
+  background-color: rgb(104, 200, 8);
+  border-radius: 5px;
+}
+.grid-item-2 {
+  background-color: rgb(165, 75, 1);
+  border-radius: 5px;
+}
+.grid-paragraph-aside {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(219, 223, 230);
+}
+.item-a {
+  flex: 1;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+.item-b {
+  flex: 1;
+  background-color: rgb(171, 25, 122);
+  border-radius: 5px;
+}
+.my-footer {
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 80px;
+  background-color: rgb(225, 240, 235);
+  padding: 10px;
+}
+.right {
+  background-color: rgb(196, 135, 21);
+  border-radius: 5px;
+  height: 70px;
+  text-align: center;
+}
