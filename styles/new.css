@@ -40,7 +40,7 @@ nav a {
   border-radius: 25%;
 }
 aside {
-  border: 1px RED SOLID;
+  border: 2px red solid;
   border-radius: 30px;
   background-color: bisque;
   width: 20%;
@@ -98,10 +98,10 @@ article {
   color: blue;
 }
 body {
-  background-color: #aaa;
+  background: linear-gradient(white, blue, white);
 }
 img {
-  border: 2px SOLID white;
+  border: 2px solid white;
   border-radius: 50px;
 }
 article {
@@ -116,40 +116,14 @@ article {
   left: 100px;
   width: 150px;
   height: 45px;
-  border: 2px SOLID blue;
+  border: 2px dashed blue;
   border-radius: 10px;
   background-color: skyblue;
   font-size: 16px;
-
-  /*transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;*/
   transition: all 0.3s;
 }
 .btn:hover {
   background-color: red;
   transform: translateY(-10px);
   color: white;
-}
-main {
-  position: absolute;
-  color: blue;
-}
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-300px);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-.heading1 {
-  /*animation-name: slideInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-direction: reverse;*/
 }
