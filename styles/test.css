@@ -97,6 +97,34 @@ figcaption {
   margin-top: 40px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
+#about:hover {
+  border: 2px solid red;
+}
+img {
+  transform: translateX(0%);
+}
+img:hover {
+  animation: driveImage 5s ease-in-out infinite;
+}
+
+
+@keyframes driveImage {
+  
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  80% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
 
 
 article h3 {
@@ -165,11 +193,11 @@ button {
   font-size: 1rem;
   transition: all 0.3s ease;
 }
-
 button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #059669, red);
+ 
 }
+
 
 footer {
   background-color: #0f172a;
