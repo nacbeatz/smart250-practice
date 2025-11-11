@@ -95,17 +95,23 @@ figcaption {
 }
 img {
   transform: translateX(0%);
-}
-img:hover {
   animation: driveImage 5s ease-in-out infinite;
 }
 
 @keyframes driveImage {
   0% {
     transform: translateX(-100%);
+    border: 5px solid #059669;
+
+  }
+  80% {
+    border: 5px solid yellow;
+    
   }
   100% {
     transform: translateX(100%);
+ 
+    border: 5px solid red;
   }
 }
 
