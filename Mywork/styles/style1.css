@@ -1,14 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 section {
   display: flex;
   flex-direction: column;
   background-color: #f8f9fa;
+  margin: 10px;
 }
 section > header {
   background-color: #14213d;
   color: #e5e5e5;
   border-radius: 10px 10px 0px 0px;
   text-align: center;
-  margin-top: 5px;
+
+  padding: 10px;
 }
 h1,
 h2,
@@ -25,11 +33,13 @@ article {
     "p2     aside"
     "footer footer";
   height: 600px;
+  gap: 10px;
 }
 article > header {
   grid-area: title;
   text-align: center;
   background-color: #e5e5e5;
+  padding: 15px;
 }
 
 #p1 {
@@ -37,36 +47,37 @@ article > header {
   padding: 15px;
   background-color: #dbeafe;
   height: 100%;
-  border: white solid 8px;
 }
 #p2 {
   grid-area: p2;
   margin: 0px;
   background-color: #fff8e1;
   height: 100%;
-  border: white solid 4px;
+  padding: 15px;
 }
 aside {
   grid-area: aside;
   background-color: #e5e5e5;
-  padding: 15px;
-
+  padding: 15px 30px;
   height: 100%;
-  border: white solid 4px;
 }
 ul > li {
   font-family: "Merriweather", serif;
+  margin-top: 20px;
 }
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: footer;
   background-color: #14213d;
   color: #fff;
   text-align: center;
   height: 100%;
   border-radius: 0px 0px 10px 10px;
-  border-top: white solid 8px;
+  margin-bottom: 15px;
 }
 p {
   font-family: "Merriweather", serif;
-  line-height: 1.6;
+  line-height: 2;
 }
