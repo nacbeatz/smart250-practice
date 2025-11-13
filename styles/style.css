@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: black;
+   
 }
 nav a {
     padding: 5px;
@@ -28,14 +28,14 @@ nav a {
 header{
    
  
-    background-color: brown;
+   
     padding:0px;
   
 
 
 }
 #main_nav{
-    background-color:blanchedalmond;
+   
    display: flex ;
    padding: 0px;
    align-items: center;
@@ -61,16 +61,11 @@ header{
     align-items: center;
     padding: 30px;
 }
-main{
-    background-color:pink;
-}
-{
-    background-color: red;
-}
+
 .socialmedia {
     display: flex;
     position: relative;
-    background-color:red;
+  
     align-items: center;
     padding: 0px;
 
@@ -81,22 +76,32 @@ main{
     right: 0;
     margin-right: 10px;
 }
-h1{
-     
-    background-color: greenyellow;
-}
+
 #Susan {
     text-decoration: underline;
 }
-aside{
-  background-color:green;
+aside {
+    border: 10px dotted blue ;
     position: relative;
-    display: block;
-   margin-top: 50px;
- margin-inline-start: 25px;
+    padding: 15px 10px 5px 5px;
+gap: 10;
+
 }
+aside li{
+    
+    padding: 10px 10px 5px 4px;
+   
+
+}
+    
+    
+ 
+
+
+
 .maincontainer{
     display: flex;
+
 }
      
 p{
@@ -104,17 +109,53 @@ p{
     margin-right: 400px;
     margin-top: 0px;
     margin-left: 300px;
-    background-color: aqua;
+  
 }
 figure{
-    background-color:blue;
+   
     margin-left: 300px;
     margin-right: 400px;
     margin-top: -205px;
     
 }
+#btn{
+    font: 2rem;
+    font-weight: 700;
+    padding:0.5em 1em;
+border: 10px solid rgb(248, 10, 101);
+background-color: antiquewhite;
+transition: all 0.3s;
+border-radius: 5px;
+
+
+}
+#btn:hover {
+    background-color: red;
+    transform: translatey(-10px);
+  
+
+}
 footer{
-    background-color: yellow;
+   
     align-items:first baseline;
 }
+     .yes{
+       
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+     }
+     @keyframes slideinleft{
+        from
+        {transform:translatey(-300px)}
+
+        to
+        {transform: translatey(0px);}
+     }
+   
+      
+
+      
+     
      

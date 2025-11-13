@@ -1,0 +1,12 @@
+body{display: grid;
+  grid-template-columns: 150px, 150px, 150px;
+  grid-template-rows: 20px, 20px, 20px;
+ grid-area: yellow, red, green ;
+ 
+}
+nav a{
+  
+}
+li{
+  border: 1px black solid;
+}
