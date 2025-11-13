@@ -67,4 +67,36 @@ h2{
    
 }
 
+figure{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.movepic{
+    animation: move 5s infinite;
+}
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(60%);
+    }
+}
+
+#heart{
+    animation: move2 2s ease-in infinite;
+}
+@keyframes move2 {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-100%);
+    }
+}
 
