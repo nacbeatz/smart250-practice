@@ -1,26 +1,39 @@
 body {  
     background-color: #9d8181;
+    height:800px;
     
 }
 
 
 header, footer { 
-    background: #411111; 
+    background: linear-gradient( #411111, rgb(170, 86, 86)); 
     color: #fff;
     padding: 5px; 
     text-align: center;
     position:relative; 
 }
 
+header :hover{
+    background: linear-gradient(green, yellow)
+}
 
 main { 
     display: flex;
-    flex-direction: row;
-    margin: 2px;
+    flex-direction: column;
+    margin: 0;
     border:#000;
     border-radius: 3px;
-    height: 800px;
+    height: fit-content;
      
+}
+
+#sidings {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 nav { 
@@ -39,7 +52,7 @@ section {
 }
 
 article { 
-    background: #c43e3e; 
+     
     padding: 10px; 
     border-radius: 5px; 
 }
@@ -51,22 +64,17 @@ h1 {
 
 
 #About {
-    
-    
     position: relative;
-    height: 300px;
-}
-
-
-
-#About figure {
-    position: absolute;
-
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
 }
 
 
 footer { 
-    background: #411111; 
+    background: linear-gradient(rgb(170, 86, 86), #411111);
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -76,13 +84,7 @@ footer {
     
 }
 
-#image {
-    
-    position: absolute;
-    left: 0;
-    width:60%;
-    
-}
+
 #word {
     
     position: absolute;
@@ -92,11 +94,11 @@ footer {
     
 
 #Myth {
-    
     padding: 10px;
     position: relative;
-    height: 30%;
+    height: fit-content;
     padding-bottom: 10px;
+    margin: 10px 0 0 0 ;
 }
 #icon {
     position: absolute;
@@ -106,20 +108,28 @@ footer {
 
 aside {
    
-    
+    background-color: rgb(170, 86, 86);
     width: 30%;
-    margin: 5px;
-    
+    margin: 0;    
+    border-left: blue 5px solid;
+    border-radius: 10px;
+      
 }
 
 .content {
-    
     margin-right: 240px;
     border: #411111;
     border-radius: 8px;
     border-style: solid;
+    margin-top: 0;
 }
 #social{
     display: flex;
     justify-content: space-between;
+}
+
+#contact {
+    margin-top: 10px;
+    border: 3px solid #411111;
+    border-radius: 10px;
 }
