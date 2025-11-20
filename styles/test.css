@@ -220,13 +220,17 @@ footer a:hover {
   }
 }
 #car {
-  animation: drive 2s infinite alternate;
+  animation: drive 5s ease infinite;
 }
 @keyframes drive {
-  0% {
-    transform: translate(0px);
+  20% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(600px);
+    transform: translateY(100px);
   }
   100% {
-    transform: translate(900px);
+    transform: translateX(1300px);
   }
 }
