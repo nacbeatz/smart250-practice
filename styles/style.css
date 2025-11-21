@@ -1,239 +1,26 @@
-@font-face {
-  font-family: "Lobster";
-  src: url("fonts/Lobster-Regular.ttf");
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-body {
-<<<<<<< HEAD
-    display: block;
+body{
+    background-color: skyblue;
 }
-<<<<<<< Updated upstream
-header {
-    position: relative;
-    background-color: #49E45B;
-    height:160px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center; 
-    align-items: center;
+button:hover{
+    background-color:linear-gradient(235deg, orange, rgb(255, 0, 0)e);
+    color: gold;
 }
-main {
-    background-color: white;
-    display: flex;
-    flex-direction:row;
-    position: relative;
-    border: 2px solid black;
-    height: 800px;
-=======
-h1,h3 {
-  font-family: "Lobster-Regular.ttf", sans-serif;
-  
-=======
-  font-family: "Lobster-Regular.ttf", sans-serif;
-}
-h1,
-h3 {
-  font-family: "Lobster-Regular.ttf", sans-serif;
->>>>>>> hp-b
-}
-#menu-contain {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-aside {
-  background-color: bisque;
-  width: 200px;
-  height: 350px;
-  font-size: 20px;
-<<<<<<< HEAD
-  padding:20px;
-  border:0;
-}
-aside p {   
-padding-left: 10px;
-margin-bottom: 20px;
-font-size:16px;
-}
-
-/*aside p:nth-child(even) {
-  border: 2px solid red;
-} 
-aside p:nth-child(odd) {
-    border: 2px solid green;
-  }   
-*/
-  aside p:nth-child(odd)::before {
-    content: "";
-    position: absolute;
-    width:10px;
-    height:10px;
-    margin-top:5px;
-    margin-left:-16.5px;
-    background-color: gray;
-  }
-  aside p:nth-child(even)::before {
-    content: "";
-    position: absolute;
-    width:10px;
-    height:10px;
-    margin-top:5px;
-    margin-left:-16.5px;
-    background-color: red;
-    border-radius:50%;  
-  }
- 
-
-#article-menu   {
-  border-left: 3px solid gray;
-}  
-#aside-title {
-  margin-bottom: 30px;
-}
-
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-#how-contain {
-  font-size: 15px;
->>>>>>> Stashed changes
-}
-
-aside      {
-    width: 20%; 
-}
-#hero_section{
-    width: 80%
- 
-}
-.main_nav{
- 
- display: block;
- border: #FF0000 solid 2px;
- height: 60px;
- width: 100%;
-}
-#box1{
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-nav a {
-    display: inline;
-}
-footer {
-<<<<<<< Updated upstream
-    position: relative;
-    bottom:0;
-
-    background-color: red;
-}
-#home{
- 
-    visibility: visible;
-    position: relative;
-    background-color: white;
-}
-#about{
-    background-color: greenyellow;
-    position: relative;
-}
-#contact{
-    position: relative;
-    background-color: cyan;
-}
-
-
-.intro{
-    position: relative;
-    background-color: orange;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 220px;
-}
-figure{
-    position: absolute;
-    width: 30%;
-    bottom: 0;
-    left:0;
-    border: 2px solid black;
-}
-
-figure img{
-    width: 100%;   
-} 
-
-#home p{
-    position: absolute;
-    width: 60%;
-    right: 0;
-}
-=======
-  background-color: skyblue;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:20px 10px;
-}
-header  {
-    border: 1px solid red;
-    margin-bottom: 30px;
+button{
+    background-color: blue;
     padding: 20px;
-  }
-  main {
-    border: 1px solid blue;
-   
- 
-  }
->>>>>>> Stashed changes
-=======
-}
-#how-contain {
-  font-size: 15px;
+    font-size: 20px;
+   border-radius: 20px;
+    margin: 20px;
+    color:white
 }
 
-.peter {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
 
-nav {
-  display: flex;
-  background-color: skyblue;
-  height: 50px;
-  align-items: center;
-  justify-content: space-evenly;
+img:hover{
+    transform: translate(1000px);
+    transition: transform 6s ease;
 }
-
-#social-media {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-h4 {
-  left: 100px;
-}
-footer {
-  background-color: skyblue;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
->>>>>>> hp-b

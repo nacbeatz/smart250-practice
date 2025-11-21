@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: 0;
+}
+.contain-1{
+    width: 700px;
+    height: 500px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 1;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+
+
+}
+#about-1{
+    
+    background-color: blue;
+    color: white;
+    
+}
+#about-2{
+    
+    background-color: blue;
+    color: white;
+}
+#about-3{
+  
+    background-color: blue;
+    color: white;
+}
+#about-4{
+   
+    background-color: blue;
+    color: white;
+
+}
+#about-5{
+   
+    background-color: blue;
+    color: white;
+}
+#about-6{
+   
+    background-color: blue;
+    color: white;
+}
+#about-7{
+    
+    background-color: blue;
+    color: white;
+}
+#about-8{
+    
+    background-color: blue;
+    color: white;
+}
+#about-9{
+    
+    background-color: blue;
+    color: white;
+}
+#about-10{
+    
+    background-color: blue;
+    color: white;
+}
+#about-11{
+    
+    background-color: blue;
+    color: white;
+}
+#about-12{
+    
+    background-color: blue;
+    color: white;
+}
+#about-13{
+    
+    background-color: blue;
+    color: white;
+}
+#about-14{
+    
+    background-color: blue;
+    color: white;
+}
+#about-15{
+    
+    background-color: blue;
+    color: white;
+}
