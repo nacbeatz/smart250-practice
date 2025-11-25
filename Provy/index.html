@@ -8,16 +8,13 @@
   <meta name="author" content="Crox Studios">
   
   <!-- Page title (appears on browser tab) -->
-  <title>My First Web Page</title>
+  <title>Responsive Website</title>
 
   <!-- Link external files -->
   <link rel="stylesheet" href="styles/style.css"> <!-- External CSS file -->
   <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
 
   <!-- Internal CSS (optional) -->
-
-  <!-- External JS (optional, can also go in the body) -->
-  <script src="js/script.js" defer></script>
  
 </head>
 
@@ -25,8 +22,7 @@
 
 
   <header>
-    <img src="images/I.jpg" alt="photo" height="35px" >
-    <nav >
+    <nav>
        
     <a class="nav1" href="#budgeting">BUGDETING</a>
     <a class="nav1" href="#investing">INVESTING</a>
@@ -37,9 +33,8 @@
     </nav>
   </header>
    <!-- MAIN CONTENT AREA -->
-  
-   <main>
-    <aside>
+  <aside class="leftpart">
+    <div id="part1">
         <h4> In This Article</h4>
        <ul>
          <li>Independance and control</li>
@@ -48,31 +43,26 @@
          <li>Directly Helping People</li>
          <li> Oportunity for innovation</li>
        </ul>
-       <h4> What to</h4>
+       </div>
+       <!--IGICE CYIHARIYE  CYIRIMO ANIMATION-->
+       <div id="part2">
+       
+       
+      <img Class="movepic" src="images/car.png" width="100px">
+    
+       </div>
     </aside>
-
-    <!-- SECTION 1 -->
-  
-
- <section >
-   
+  <main>
+  <!-- IFOTO IBANZA --> 
     <figure>
-        <img src="images/food4.jpg" alt="ifoto" >
-        <div><img id="heart" src="images/images.png" width="100px"></div>
-        <figcaption>
-        <img Class="movepic" src="images/car.png" width="100px"></figcaption>
-
-        
- 
+        <img class="ifoto" src="images/food4.jpg" alt="ifoto" >
+        <figcaption>welcome image</figcaption>
     </figure>
  
- 
- 
-
-<!-- SECTION 2 with an ARTICLE -->
+<!-- article -->
 
   <article>
-      <h3>Who We Are</h3>
+      <h2>Who We Are</h2>
       <p>We are a creative studio passionate about design and technology education.
       Our goal is to empower learners and creators with the skills to turn ideas into reality.
        Through innovative training, modern tools, and  hands-on experiences, we make learning design and tech simple, fun, and impactful.
@@ -81,40 +71,35 @@
       </p>                                
   </article>
  
-<!-- DISPLAY na VISIBILITY, POSITION -->
+<!-- FORM YO GUTANGA IBITEKEREZO -->
 
-<form action="#" method="post"> <!-- DISPLAY: INLINE -->
- <div class="form-group">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" placeholder="Enter your name" required>
-  </div>
+<form action="#" method="post"> 
+
   <div class="form-group">
-  <label for="email">Email:</label>
-<input type="email" id="email" name="email" placeholder="Enter your email" required>
- </div>
-<div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
 
-<label for="message">Message:</label>
-<textarea id="message" name="message"></textarea>
-</div>
+    <div class="form-group">
+         <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+
 
  <button type="submit">Send Message</button>
    </form>
 
-</section>
-
-
   </main>
-
-
 
 
   <!-- FOOTER: bottom of the page -->
   <footer>
-    <address >
-      Contact us at <a href="mailto:aprovish@gmail.com">aprovish@gmail.com</a>
-    </address>
-    <p>2025 smart250. All rights reserved.</p>
+    <p>2025 All rights reserved.</p>
   </footer>
 
 </body>
