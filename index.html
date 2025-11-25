@@ -24,7 +24,25 @@
 <body>
     <header>
       
-        <h1> GRIIN COFFEE SHOP</h1>
+        <h1>
+          <span id="letter_1">G</span>
+          <span id="letter_2">R</span>
+          <span id="letter_3">I</span>
+          <span id="letter_4">I</span>
+          <span id="letter_5">N</span>
+          &nbsp;
+          <span id="letter_6">C</span>
+          <span id="letter_7">O</span>
+          <span id="letter_8">F</span>
+          <span id="letter_9">F</span>
+          <span id="letter_10">E</span>
+          <span id="letter_11">E</span>
+          &nbsp;
+          <span id="letter_12">S</span>
+          <span id="letter_13">H</span>
+          <span id="letter_14">O</span>
+          <span id="letter_15">P</span>
+        </h1>
         <nav>
           <image src="coffe_logo.jpg" alt="logo" width="50", height="50"></image>
           <a href="grid.html">Home</a>
@@ -71,7 +89,7 @@
           <section id="image">
             <figure>
                <image src="coffee shop photo.jpeg" alt="Photo unavailable but you can still order your coffee" width="250" height="250"></image>
-               <figcaption><em>Order your coffee now</em></figcaption>
+               <figcaption><button><em>Order your coffee now</em></button></figcaption>
             </figure>
          </section>
          <section id="word">   
@@ -105,30 +123,36 @@
     
     </section>
     </section>
+
+    <figure id="car">
+      <img src="car green.png" alt="moving car loading..." width="150" height="60">
+    </figure>
     <!--section 5: coontact-->
 
 
    <section id="contact">
     <article>
       <h4>Order form</h4>
+      <div id="form">
       <form action="submit.php" method="post">
         <lebel for="user"> Username:</lebel>
-        <input type="text" id="user" name="user" placeholder="Enter fullname" required>
+        <input type="text" id="user" name="user" placeholder="Enter fullname" required>&nbsp;<br> &nbsp;
         <lebel for="email">Email:</lebel> 
-        <input type="text" id="email" name="mail" placeholder="name@gmail.com" required>
+        <input type="text" id="email" name="mail" placeholder="name@gmail.com" required>&nbsp;<br>&nbsp;
         <lebel for="order"> <strong>Place your Order:</strong></lebel>
-        <textarea id="message" name="message"></textarea>
+        <textarea id="message" name="message"></textarea> &nbsp;<br>&nbsp;
         
         <lebel for="delivery">Delivery request:</lebel>
         <input type="radio" name="delivery" value="yes"> Yes
-        </lebel>
+        &nbsp;<br>&nbsp;
         
-          <input type="radio" name="delively" value="no"> No
-        
+          <lebel for="location"> Location to for delivery</lebel>
+          <input type="location" placeholder="where are you?" required>
+        &nbsp; <br> &nbsp;
         <input type="submit" value="send">
         
       </form>
-
+      </div>
 
        </article>
       </section>
