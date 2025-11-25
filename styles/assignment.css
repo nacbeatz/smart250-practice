@@ -3,20 +3,42 @@
 }
 
 body {
-  background-color: hsl(270, 11%, 96%);
-  color: #333;
+  background-color: #475569;
+
   line-height: 1.6;
   margin: 10px;
   margin-right: 10px;
   width: auto;
   height: fit-content;
-  gap: 20px;
+  gap: 10px;
   display: grid;
-  grid-template-rows: 0fr 0fr 0fr 0fr;
+}
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2070&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  animation: breathe 20s ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 #header {
-  background-color: #122eac;
+  background-color: #1e293b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +46,10 @@ body {
   height: 80px;
   gap: 40px;
   color: #ddd;
-  padding-right: 20px;
+  position: sticky;
+  border-radius: 5px;
 }
+
 nav a {
   color: white;
   text-decoration: none;
@@ -35,19 +59,21 @@ nav a {
   letter-spacing: 0.5px;
   transition: opacity 0.3s;
 }
+
 nav a:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
-.seco {
+.info {
   background-color: rgb(109, 206, 167);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 5px;
 }
 
-.seco p {
+.info p {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -56,7 +82,7 @@ nav a:hover {
   color: #666;
   font-size: 14px;
 }
-.seco em {
+.info em {
   align-items: center;
   border-radius: 20px;
   font-family: "Roboto", sans-serif;
@@ -92,6 +118,11 @@ nav a:hover {
   color: #2c3e50;
   line-height: 1.3;
 }
+.mainhead::selection {
+  color: aqua;
+  font-size: 2em;
+  font-style: italic;
+}
 
 main {
   max-width: 1200px;
@@ -101,7 +132,7 @@ main {
   grid-template-columns: 280px 1fr;
   gap: 40px;
   align-items: start;
-  background-color: #333;
+  background-color: none;
 }
 
 aside {
@@ -110,8 +141,21 @@ aside {
   border-radius: 8px;
   position: sticky;
   top: 80px;
+  animation: move 5s 2;
 }
-
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+aside h3:hover {
+  color: #667eea;
+  font-size: 2em;
+  font-style: italic;
+}
 aside h3 {
   font-size: 20px;
   color: #2c3e50;
@@ -122,6 +166,7 @@ aside h3 {
 aside ul {
   list-style: none;
   margin-bottom: 30px;
+  padding-left: 0px;
 }
 
 aside ul li {
@@ -129,12 +174,12 @@ aside ul li {
   color: #555;
   font-size: 14px;
   line-height: 1.5;
-  padding-left: 15px;
+  padding-left: 18px;
   position: relative;
 }
 
 aside ul li::before {
-  content: "•";
+  content: "✅";
   position: absolute;
   left: 0;
   color: #667eea;
@@ -184,7 +229,7 @@ figure {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px #851414ba;
   background-color: none;
 }
 
@@ -196,16 +241,73 @@ figcaption {
 }
 
 .maintext {
-  background-color: white;
+  background-color: wheat;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.maintext::selection {
+  background-color: chartreuse;
+  font-size: 3em;
+  font-style: italic;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkolivegreen;
+  background-color: #1e293b;
+  color: whitesmoke;
   height: 60px;
+  border-radius: 5px;
+}
+aside button:hover {
+  border: 2px solid #ac1271;
+  background-color: #122eac;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+  body {
+    font-size: 20px;
+    background: #ffeaa7;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 18px;
+    background: orange;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 17px;
+    background: orangered;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .main {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background: none;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 15px;
+    background: greenyellow;
+  }
 }
