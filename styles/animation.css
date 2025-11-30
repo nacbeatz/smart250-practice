@@ -3,34 +3,83 @@
     margin: 0;
     border: 0;
     color: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+}
+.contain-a{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    gap: 10px;
+    
+   
+.view-1{
+    padding: 20px;
+    border: 5px solid orange;
+     background-color: white;
+     font-size: 20px;
+     width: 500px;
+     height: 180px;
+}
+}
+.view-2{
+    padding: 20px;
+    border: 4px dotted greenyellow;
+     background-color: white;
+     font-size:20px;
+     width: 500px;
+     height: 180px;
+}
 
+.view-3{
+    padding: 20px;
+    border: 6px solid green;
+     background-color: white;
+     font-size: 20px;
+     width: 500px;
+     height: 180px;
 }
-h1{
-    font-size: 70px;
-    color: brown;
+
+.view-4{
+    padding: 20px;
+    border: 7px dotted skyblue;
+     background-color: white;
+     font-size: 20px;
+     width: 500px;
+     height: 180px;
 }
-@media (max-width: 1500px){
-    h1{
+
+
+
+
+@media (max-width: 600px){
+    .view-3{
         color: blue;
-        font-size: 50px;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
 @media (max-width:900px){
-    h1{
+    .view-2{
         color: aqua;
-        font-size: 80px;
+        font-size: 20px;
     }
 }
 @media (max-width:500px){
-    h1{
+    .view-1{
         color: blueviolet;
         font-size: 20px;
     }
 }
-@media (max-width:400px){
-    h1{
+@media (max-width:768px){
+    .view-4{
         color: orange;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 40px;
+        font-size: 19px;
     }
 }
