@@ -22,6 +22,10 @@ nav {
   align-items: center;
   border-bottom: #e5e5e5 solid 4px;
 }
+.burger-menu {
+  display: block;
+  cursor: pointer;
+}
 header h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
