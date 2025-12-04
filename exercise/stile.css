@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    color: rgb(9, 14, 14);
+}
+
+
+#card {
+    background-color: aqua;
+    padding: 5px 0 5px 0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    /**grid-area: "card_1 card_1"
+               "card_2 card_3"
+               "card_4 card_4"
+               "card_5 card_6"
+               "card_7 card_8"; **/
+}
+
+#card_1 {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+#card_2 {
+    background-color: rgb(214, 78, 78);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+#card_3 {
+    background-color: rgb(10, 206, 43);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+#card_4 {
+    background-color: rgb(215, 237, 11);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+#card_5 {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+#card_6 {
+    background-color: rgb(46, 19, 109);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+#card_7 {
+    background-color: rgb(165, 15, 138);
+    height: 50px;
+    width: 100%;
+    margin: 10px 0 10px 0; 
+}
+
+#card_8 {
+    background-color: rgb(7, 79, 109);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px 0; 
+}
+
+
+
