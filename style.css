@@ -1,5 +1,7 @@
 #main {
-  background-color: black;
-  width: 100px;
-  height: 100px;
+  width: 480px;
+}
+h1 {
+  padding-left: 100px;
+  padding-right: 100px;
 }
