@@ -1,7 +1,60 @@
+/* variables*/
+:root {
+  --firstly: white;
+  --secondly: skyblue;
+}
+/* Reset*/
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/* base styles */
+
 #main {
   width: 480px;
 }
 h1 {
   padding-left: 100px;
   padding-right: 100px;
+}
+body {
+  background-color: var(--firstly);
+}
+#download {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+}
+img {
+  border-radius: 10px;
+}
+.one {
+  margin: 100px;
+}
+#location {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 300px;
+  margin: 100px;
+  border-radius: 10px;
+}
+#location p {
+  margin-left: 100px;
+}
+br {
+  margin-left: 5px;
+}
+button {
+  position: absolute;
+  bottom: -150px;
+  left: 180px;
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: blue;
+}
+.how {
+  margin: 100px;
 }
