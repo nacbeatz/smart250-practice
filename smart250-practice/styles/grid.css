@@ -18,13 +18,13 @@ body {
 
 .grid-article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr 4fr 1fr;
   grid-template-areas:
-    "head head"
-    "p1 p1"
-    "p2 aside"
-    "footer footer";
+    "head head head head"
+    "p1 p1 p1 p1"
+    "p2 p3 p4 aside"
+    "footer footer footer footer";
   gap: 5px;
 }
 .grid-item-1 {
@@ -45,6 +45,19 @@ body {
   border-radius: 10px;
   text-align: center;
 }
+.item-a1 {
+  grid-area: p3;
+  background-color: rgb(62, 54, 54);
+  border-radius: 10px;
+  text-align: center;
+}
+.item-a2 {
+  grid-area: p4;
+  background-color: rgb(62, 54, 54);
+  border-radius: 10px;
+  text-align: center;
+}
+
 .item-b {
   grid-area: aside;
   background-color: rgb(48, 15, 79);
@@ -56,4 +69,10 @@ body {
   background-color: rgb(109, 109, 209);
   border-radius: 10px;
   text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .grid-article {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
