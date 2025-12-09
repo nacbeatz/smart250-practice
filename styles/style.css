@@ -1,6 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 html,
@@ -16,8 +22,15 @@ body {
 }
 nav {
   display: none;
-}
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
+  width: 100%;
+}
+header > img:first-child {
+  display: none;
+}
 #first > header {
   display: flex;
   flex-direction: row;
@@ -26,23 +39,33 @@ nav {
   width: 90%;
 
   padding-right: 8px;
+  position: relative;
 }
-
-#first {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 100%;
   background-color: #f7f7fb;
-
+}
+#first {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f7f7fb;
   padding-top: 10px;
   padding-bottom: 40px;
 }
-#first > p {
-  margin-top: 20px;
-  padding: 20px;
-}
 #car1 {
+  width: 90%;
+}
+.home > p {
+  margin-top: 40px;
+  font-style: bold;
+}
+.home > h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +74,7 @@ nav {
   height: 165px;
   margin-top: 60px;
 }
-#car1 > img {
+#car1 > :first-child {
   display: none;
 }
 
@@ -61,17 +84,17 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
   margin-top: 20px;
   padding-right: 15px;
 }
 main {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  width: 90%;
+  width: 100%;
 }
 .carlogo {
   display: none;
@@ -131,6 +154,8 @@ main {
   justify-content: center;
   gap: 30px;
   padding-top: 10px;
+
+  width: 100%;
 }
 h3 {
   color: #4a4a4a9c;
@@ -158,7 +183,7 @@ h3 {
 }
 .step > p {
   position: absolute;
-  bottom: 30px;
+  top: 200px;
   text-align: center;
   color: #4a4a4a9c;
 }
@@ -200,11 +225,7 @@ h3 {
   top: 0;
   background-color: #ffffffa7;
 }
-.cars img:nth-child(4) {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
+
 .cars img:nth-child(3) {
   position: absolute;
   top: 25%;
@@ -357,14 +378,14 @@ p {
   font-weight: bold;
 }
 #testimonials {
-  width: 450px;
+  width: 480px;
   margin-top: 60px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 28px;
   padding-top: 10px;
   background-color: #f7f7fb;
 }
@@ -375,7 +396,7 @@ p {
   justify-content: center;
   gap: 50px;
   border: #f7f7fb solid 1px;
-  width: 230px;
+  width: 336px;
   position: relative;
   padding: 30px;
   box-shadow: 0px 2px 10.7px 0px #00000040;
@@ -385,7 +406,7 @@ p {
   text-align: center;
   color: #4a4a4a9c;
 }
-#iso {
+.user {
   width: 150px;
   height: 220px;
   border-radius: 30px;
@@ -398,7 +419,7 @@ p {
 }
 .quote1 {
   position: absolute;
-  top: 410px;
+  top: 380px;
   right: 15px;
   transform: scale(-1);
 }
@@ -425,13 +446,370 @@ img {
   box-shadow: 0px 4px 11.9px 0px #00000040;
 }
 .testi::before {
-  left: 22px;
+  left: 13px;
   z-index: 0;
 }
 .testi::after {
-  right: 22px;
+  right: 13px;
   z-index: 0;
 }
 .testi > img:nth-child(1) {
   transform: scaleX(-1);
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #0f1114;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 30px;
+  position: relative;
+}
+
+.download {
+  background: linear-gradient(135deg, #4d9fff, #1d7cff);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.store {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.download h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.download p {
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .cars img:nth-child(4) {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  footer {
+    background-color: none;
+  }
+}
+/* tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+  a {
+    font-size: 12px;
+  }
+  header > img:last-child {
+    display: none;
+  }
+  header > img:first-child {
+    display: flex;
+
+    position: absolute;
+    left: 0px;
+  }
+  header > img:nth-child(2) {
+    display: none;
+  }
+  #first > header {
+    height: 75px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  #car1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    margin-top: 30px;
+  }
+  #car1 > :first-child {
+    display: flex;
+    width: 60%;
+    height: 10%;
+    transform: scale(-1.2, 1.2) translateX(-10%);
+  }
+  .cars img:nth-child(4) {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+  }
+  .home > h1 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .home {
+    width: 40%;
+    margin-left: 80px;
+  }
+  .location {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+  }
+  main {
+    padding-top: 0px;
+    padding: 0;
+  }
+  .steps {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+  #whychooseus {
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    background-color: #f7f7fb;
+    width: 100%;
+    height: 400px;
+  }
+  .map {
+    transform: scale(1.2);
+  }
+  aside {
+    transform: scale(0.9);
+  }
+  aside h4 {
+    font-size: 15px;
+  }
+  aside h2 {
+    font-size: 22px;
+  }
+  .deals {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "whi bla"
+      "blu rd";
+    gap: 40px;
+  }
+  #black {
+    grid-area: bla;
+  }
+  #white {
+    grid-area: whi;
+  }
+  #blue {
+    grid-area: blu;
+  }
+  #red {
+    grid-area: rd;
+  }
+  #testimonials {
+    width: 750px;
+  }
+  #bella {
+    display: flex;
+  }
+  .testi {
+    gap: 35px;
+  }
+  .testi::before {
+    left: 0px;
+  }
+  .testi::after {
+    right: 0px;
+  }
+  .people {
+    width: 300px;
+  }
+  .quote {
+    top: 285px;
+    left: 23px;
+  }
+  .quote1 {
+    top: 405px;
+    right: 15px;
+  }
+  footer {
+    width: 100%;
+    height: 220px;
+    background-color: #0f1114;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 200px;
+    position: relative;
+  }
+
+  .download {
+    width: 70%;
+    position: absolute;
+    top: -50%;
+    left: 16%;
+    padding: 70px 20px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+  }
+}
+/* desktop*/
+@media (min-width: 1025px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+  }
+  a {
+    font-size: 12px;
+  }
+  header > img:last-child {
+    display: none;
+  }
+  header > img:first-child {
+    display: flex;
+
+    position: absolute;
+    left: 0px;
+  }
+  header > img:nth-child(2) {
+    display: none;
+  }
+  #first > header {
+    height: 75px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  #car1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    margin-top: 30px;
+    width: 100%;
+  }
+  #car1 > :first-child {
+    display: flex;
+    width: 70%;
+    height: 20%;
+    transform: scale(-1.1, 1.1) translateX(-18%);
+  }
+  .home > h1 {
+    padding: 0px;
+    margin: 30px;
+    width: 100%;
+
+    font-size: 50px;
+  }
+
+  .home {
+    width: 50%;
+
+    margin-left: 80px;
+  }
+  .location {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+  }
+  .carlogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .steps {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+  #whychooseus {
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    background-color: #f7f7fb;
+    width: 100%;
+  }
+  .map {
+    transform: scale(1.4);
+  }
+  .cars img:nth-child(4) {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+  }
+  aside {
+    padding-top: 0;
+    margin-top: 0px;
+    width: 40%;
+  }
+  #rentaldeals {
+    width: 100%;
+  }
+  .deals {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  #testimonials {
+    width: 750px;
+  }
+  #bella {
+    display: flex;
+  }
+  .testi {
+    gap: 35px;
+  }
+  .testi::before {
+    left: 0px;
+  }
+  .testi::after {
+    right: 0px;
+  }
+  .people {
+    width: 300px;
+  }
+  footer {
+    width: 100%;
+    height: 220px;
+    background-color: #0f1114;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 200px;
+    position: relative;
+  }
+
+  .download {
+    width: 70%;
+    position: absolute;
+
+    top: -50%;
+    left: 16%;
+    padding: 70px 20px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+  }
 }
