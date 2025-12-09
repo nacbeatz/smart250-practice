@@ -1,6 +1,4 @@
 body {
-    width: auto;
-    height: auto;
     margin:0;
 }
 
@@ -9,9 +7,13 @@ body {
 
 #car_1 {
     transform: scaleX(-1);
- 
-    border: 2px solid red; 
+   /* border: 2px solid red;*/
+    margin: 0; 
+    width: 100%;
+    display: block;
+    height: auto;
 }
+
 
 #ios {
     width: 148px;
@@ -28,42 +30,205 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
+
 }
 
 .head {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: grid;
     grid-template-columns: 330px auto 330px;
     width: 100%;
 }
 
 #carentall {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 #login {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color:black
+    justify-content: flex-end;
+    margin-right: 40px;
 }
 
 #part_1 {
-    width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(1, 1fr 1fr) /*1fr 68%*/;
     margin: 0 40px 0 40px;
-
+    /*background-color: blue;*/
+    height:430px;
 }
 
 #text_1 {
-    border: 2px solid green;
+    /*border: 2px solid green;*/
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height:auto;
+    display: block;
 }
 #find {
-    font-size: 90px;
+    font-size: 45px;
 }
-h1 #find ::nth-child(8th) {
-    color: blue;
+
+/**SECTION 2: LOCATIONS**/
+
+#location_1 {
+    border: 2px solid red;
+    margin: 0 60px 0 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    border-radius: 40px;
+    align-items: center;
+    background-color: rgb(232, 224, 224);
 }
+
+#search {
+    width: 148px;
+    height:54px;
+}
+
+.loc {
+    border-right: 2px solid black;
+}
+
+
+/**page responsiveness on devices part 1**/
+
+/* Desktop*/  
+@media (min-width: 1201px) {
+}
+
+/* Laptop*/
+@media (min-width: 769px) and (max-width: 1200px) {
+    .head {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+    width: 100%;
+    }
+    #carentall {
+    border: 2px solid red;
+    }
+
+    nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-small;
+    }
+    #login {
+        font-size: xx-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    }
+    #car_1 {
+         display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    transform: scaleX(-1);
+    border: 2px solid red;
+    margin: 0; 
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    #text_1 {
+         display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
+    border: 2px solid green;
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: auto;
+    }
+    #part_1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 0;
+    background-color: rgb(137, 156, 29);
+    gap:10px;
+    }
+
+}
+
+/* Tablet*/
+@media (min-width: 481px) and (max-width: 768px) {
+    .head {
+    border: 2px solid red;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr auto;
+    width: 100%;
+    }
+    #carentall {
+    border: 2px solid red;
+    width: 100px;
+    height: 52px;
+    }
+
+    nav {
+        font-size: xx-small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    #login {
+        font-size: xx-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    }
+    #car_1 {
+         display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    transform: scaleX(-1);
+    border: 2px solid red;
+    margin: 0; 
+    width: 100%;
+    min-width: 300px;
+    /*height: auto;*/
+    display: block;
+    }
+    #text_1 {
+    border: 2px solid green;
+    margin: 20px 0 20px 0;
+    width: 100%;
+    }
+     #part_1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0;
+    background-color: rgb(31, 139, 54);
+    } 
+
+
+} 
+/** Mobile**/
+@media (max-width: 480px) and (min-width: 320px) {
+    #part_1 {
+    grid-template-columns: repeat(1fr, minmax(1fr, auto));
+    background-color: rgb(223, 23, 146);
+    margin: 0;
+    padding: 5px;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+    #car_1 {
+        visibility: hidden;
+    }
+    .head {
+    grid-template-columns: repeat(1, 1fr 50px);
+    width: 100%;
+    }
+
+}
+
+
