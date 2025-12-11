@@ -47,10 +47,10 @@ img {
 br {
   margin-left: 5px;
 }
-button {
+#b1 {
   position: absolute;
-  bottom: -200px;
-  left: 200px;
+  bottom: -280px;
+  left: 190px;
   height: 30px;
   width: 110px;
   border-radius: 50px;
@@ -61,6 +61,7 @@ button {
   margin: 100px;
 }
 .shop {
+  /*margin-left: 100px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,8 +119,77 @@ image .one {
   height: 300px;
   margin: 20px;
   background-image: url(smart250-homework-car/Oslo-Bus-Station-Norway-Google-Maps.webp);
+  background-color: rgba(255, 255, 255);
 }
 .car1 {
   display: flex;
   flex-direction: row;
+  margin: 50px;
+}
+.car2 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+.car3 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+.car4 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+#caricons {
+  background-color: whitesmoke;
+}
+.carrental {
+  width: 200px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+.carrental img {
+  position: relative;
+  left: 3px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 10px;
+}
+#rental p {
+  margin-left: 150px;
+}
+#b2 {
+  position: absolute;
+  margin: 10px;
+  left: 150px;
+  height: 45px;
+  width: 180px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#part1 {
+  background-color: whitesmoke;
+}
+#testimonials {
+  margin: 150px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+}
+#testimonials img {
+  border-radius: 50%;
+  margin: 65px;
+  margin-top: 5px;
+  background-color: whitesmoke;
+}
+#testimonials p {
+  padding-top: 20px;
 }
