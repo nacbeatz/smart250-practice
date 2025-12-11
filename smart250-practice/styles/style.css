@@ -3,49 +3,258 @@
   padding: 0;
 }
 body {
-  height: 4912px;
+  height: 3050px;
 }
+.logo {
+  position: absolute;
+  top: 90px;
+  left: 105px;
+
+  transform: rotate(-90deg);
+}
+
+.logo-1 {
+  position: absolute;
+  top: 20px;
+  left: 105px;
+}
+.logo-2 {
+  position: absolute;
+  top: 41px;
+  left: 167px;
+
+  transform: rotate(125deg);
+}
+.ht-1 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: rgb(26, 45, 223);
+  border-radius: 0px;
+  top: 1px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 45px;
+}
+.ht-2 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: rgb(26, 45, 223);
+  border-radius: 0px;
+  left: 30px;
+  top: 1px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 45px;
+}
+.ht-3 {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 30px;
+  background-color: rgb(26, 45, 223);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 7.5px;
+  left: 10px;
+}
+.ht-4 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: rgb(26, 45, 223);
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  left: 8px;
+  top: -2px;
+  transform: rotate(-50deg);
+}
+
+.ht-5 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: rgb(26, 45, 223);
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  left: 32px;
+  top: -2px;
+  transform: rotate(50deg);
+}
+.ht-10 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: rgb(95, 143, 255);
+  border-radius: 0px;
+  top: 1px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 45px;
+}
+.ht-20 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: rgb(95, 143, 255);
+  border-radius: 0px;
+  left: 30px;
+  top: 1px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 45px;
+}
+.ht-30 {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 30px;
+  background-color: rgb(95, 143, 255);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 7.5px;
+  left: 10px;
+}
+.ht-40 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: rgb(95, 143, 255);
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  left: 8px;
+  top: -2px;
+  transform: rotate(-50deg);
+}
+
+.ht-50 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: rgb(95, 143, 255);
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  left: 32px;
+  top: -2px;
+  transform: rotate(50deg);
+}
+
+.ht-11 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: #4da6f5;
+  border-radius: 0px;
+  top: 1px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 45px;
+}
+.ht-22 {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: #4da6f5;
+  border-radius: 0px;
+  left: 30px;
+  top: 1px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 45px;
+}
+.ht-33 {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 30px;
+  background-color: #4da6f5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 7.5px;
+  left: 10px;
+}
+.ht-44 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: #4da6f5;
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  left: 8px;
+  top: -2px;
+  transform: rotate(-50deg);
+}
+
+.ht-55 {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background-color: #4da6f5;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  left: 32px;
+  top: -2px;
+  transform: rotate(50deg);
+}
+
 header {
   height: 700px;
   background-color: #f7f7fb;
   overflow: hidden;
 }
+#min-nav {
+  margin-left: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
 
 .uls {
   display: flex;
-
   justify-content: center;
   list-style: none;
+  margin-top: 20px;
   align-items: center;
-  padding-top: 20px;
 }
 
 #name {
   font-size: 20px;
-  margin-right: 180px;
+
+  margin-left: 150px;
+  margin-right: 120px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a {
   height: 100%;
-  padding: 0 40px;
+  padding: 0 20px;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
 }
+
 .text-car {
   display: flex;
   margin-top: 100px;
 }
 #about-1 {
-  font-size: 47px;
+  margin-left: 20px;
+  font-size: 37px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin-left: 100px;
+  text-align: center;
 }
 #about-p {
-  font-size: 31px;
-  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
 }
 .car {
   display: block;
@@ -59,13 +268,14 @@ nav a {
   display: flex;
   gap: 20px;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .app img {
   border-radius: 10px;
 }
 .location {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: -6px;
   height: 80px;
@@ -73,21 +283,25 @@ nav a {
   box-shadow: 0px 1px 2px 3px #00000014;
   margin-left: 100px;
   border-radius: 10px;
-  margin-right: 200px;
+  margin-right: 100px;
+}
+.location:hover {
+  box-shadow: 0 12px 40px 5px rgba(18, 1, 151, 0.5);
 }
 .loc {
   display: flex;
+  align-items: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 10px;
 }
 .loc li {
-  padding: 0 100px;
+  padding: 0 50px;
   border-right: 2px solid #4a4a4a4d;
 }
 .p-location {
   color: #4a4a4a9c;
   padding-top: 5px;
-  font-size: 15px;
+  font-size: 10px;
 }
 .btn-1 {
   color: #ffffff;
@@ -95,15 +309,16 @@ nav a {
   border-radius: 40px;
   border: none;
   padding: 15px 40px 15px 40px;
-  margin-left: 70px;
+  margin-left: 50px;
 }
+
 .logo-car {
   display: flex;
   justify-content: center;
 }
 .logo-car img {
-  padding: 0 30px;
-  margin-top: 95px;
+  padding: 0 10px;
+  margin-top: 35px;
 }
 .im-1 {
   margin-top: -15px;
@@ -114,14 +329,14 @@ nav a {
 .how {
   color: #4a4a4a9c;
 
-  font-size: 20px;
-  text-align: center;
-  margin-top: 50px;
-}
-.rent {
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   margin-top: 20px;
+}
+.rent {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
 }
 .booking {
   display: flex;
@@ -129,23 +344,23 @@ nav a {
   margin-top: 60px;
 }
 .booking-items {
-  padding: 0 50px;
+  padding: 0 5px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .booking img {
   box-shadow: 0px 1px 2px 3px #00000014;
   padding: 10px;
   border-radius: 20px;
-  height: 131px;
-  width: 131px;
+  height: 50px;
+  width: 50px;
 }
 .b-1 {
-  margin-top: 15px;
+  margin-top: 5px;
   color: #000000;
 }
 .b-2 {
-  margin-top: 15px;
+  margin-top: 1px;
   color: #4a4a4a9c;
 }
 .grid-article {
@@ -163,43 +378,64 @@ nav a {
   background-position: center;
 }
 .grid-item-2 {
+  justify-content: center;
+
   grid-area: aside;
   background-color: #f7f7fb;
   padding-top: 20px;
 }
 .cars-aside {
   display: flex;
+  justify-content: center;
 }
 .car-icon-aside {
   padding-top: 20px;
 }
+.details-on-car {
+  display: flex;
+}
+.details-on-car h4,
+p {
+  margin-left: 15px;
+  padding: 5px;
+}
 .car-icon-aside img {
   box-shadow: 0px 1px 2px 3px #00000014;
   border-radius: 5px;
+  margin: 10px 0;
 }
 .car-icon-aside p {
   font-size: 13px;
 }
+.aside {
+  justify-items: center;
+}
 .aside p {
   font-size: 13px;
 }
+.aside h5,
+h3,
+.details-on-car {
+  text-align: center;
+}
 .car-1 {
   position: absolute;
-  margin-left: 210px;
+  margin-left: -220px;
   margin-top: 250px;
 }
+
 .car-2 {
   position: absolute;
-  margin-left: 200px;
+  margin-left: 30px;
   margin-top: 40px;
 }
 .car-3 {
   position: absolute;
-  margin-left: 330px;
+  margin-left: -30px;
 }
 .car-4 {
   position: absolute;
-  margin-left: 550px;
+  margin-left: 290px;
   margin-top: 60px;
 }
 aside {
@@ -208,11 +444,830 @@ aside {
 .car-details {
   display: flex;
   justify-content: center;
+  gap: 50px;
+  height: 250px;
 }
-.car-details img {
-  padding: 0 30px;
-  box-shadow: 0px 1px 2px 3px #00000014;
+.car-boxes {
+  height: 20px;
+  justify-items: center;
 }
 .car-details img {
   align-items: center;
+}
+
+.car-price-1 {
+  text-align: center;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+.car-price-2 {
+  text-align: center;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+.car-price-3 {
+  text-align: center;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+.car-price-4 {
+  text-align: center;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+.price {
+  display: flex;
+  padding: 10px;
+  margin-top: 30px;
+  gap: 10px;
+}
+.price button {
+  border: none;
+}
+.price button a {
+  text-decoration: none;
+}
+.Vehicles-details {
+  display: flex;
+  justify-content: center;
+}
+.all-vehicles {
+  border: 2px black solid;
+  margin-top: 50px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  height: 50px;
+  width: 300px;
+}
+.all-vehicles a {
+  font-size: 20px;
+  color: #000000;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.TESTIMONIALS {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7fb;
+  height: 550px;
+  padding-top: 0.02px;
+  margin-top: 20px;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.all-clients-1 {
+  width: 300px;
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  height: 420px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+.all-clients-2 {
+  width: 300px;
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  height: 420px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 3px #7725785a;
+}
+
+#client-image-1 {
+  margin-top: 10px;
+  margin-left: 46px;
+  height: 200px;
+  width: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  overflow: hidden;
+  box-shadow: 0px 50px 100px 50px rgb(92, 09, 95, 95);
+}
+.all-clients p {
+  padding: 10px;
+}
+#client-image-2 {
+  margin-top: 10px;
+  margin-left: 46px;
+  height: 200px;
+  width: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  overflow: hidden;
+  box-shadow: 0px 50px 100px 50px rgb(92, 09, 95, 95);
+}
+#client-image-1 img {
+  margin-left: -115px;
+  margin-top: -55px;
+}
+#client-image-2 img {
+  margin-left: -115px;
+  margin-top: -55px;
+}
+.all-more {
+  display: flex;
+  justify-content: center;
+}
+.for-more {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  position: absolute;
+  background-color: #3083ff;
+
+  width: 900px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.for-more h2 {
+  font-size: 40px;
+}
+.for-more p {
+  margin-top: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(64, 59, 59);
+  color: #ffffff;
+  height: 320px;
+  margin-top: 200px;
+}
+.footer div {
+  padding: 0 40px;
+  padding-top: 200px;
+}
+.footer p {
+  margin-top: 10px;
+}
+.download-app-1 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/*mobile responsive*/
+@media (min-width: 320px) and (max-width: 768px) {
+  header {
+    height: 350px;
+    background-color: #f7f7fb;
+    overflow: hidden;
+  }
+  #min-nav {
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .nvg {
+    display: none;
+  }
+  #about-1 {
+    align-items: center;
+  }
+  #about-1 h1 {
+    font-size: 30px;
+    text-align: center;
+
+    margin-top: 5px;
+  }
+  #about-p {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .car {
+    display: none;
+  }
+  .download-app {
+    justify-content: center;
+    gap: 5px;
+  }
+  .app img {
+    height: 35px;
+    width: 100px;
+  }
+
+  .location {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 10px;
+    height: 350px;
+    width: 300px;
+  }
+
+  .loc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .loc li {
+    align-items: center;
+    font-size: 15px;
+    padding: 20px;
+    border-bottom: 2px solid #4a4a4a4d;
+    border-right: 0px solid #4a4a4a4d;
+  }
+
+  .btn-1 {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 10px 20px 10px 20px;
+  }
+  .logo-car {
+    display: none;
+  }
+  .booking {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking img {
+    box-shadow: 0 12px 40px 5px rgba(18, 1, 151, 0.5);
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+  }
+  .grid-article {
+    display: grid;
+    grid-template-columns: 1.2fr;
+    grid-template-rows: 1.2fr 1fr;
+    grid-template-areas: "map" "aside";
+    margin-top: 20px;
+  }
+
+  .grid-item-1 {
+    grid-area: map;
+    background-image: url(../images/Oslo-Bus-Station-Norway-Google-Maps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .grid-item-2 {
+    justify-content: center;
+
+    grid-area: aside;
+    background-color: #f7f7fb;
+    padding-top: 20px;
+  }
+  .cars-aside {
+    display: flex;
+    justify-content: center;
+  }
+  .car-1 {
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 250px;
+  }
+
+  .car-2 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .car-3 {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+  .car-4 {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 60px;
+  }
+  .aside {
+    text-align: center;
+    align-items: center;
+  }
+  .car-icon-aside {
+    align-items: center;
+  }
+  .details-on-car img {
+    height: 30px;
+    width: 30px;
+  }
+  .details-on-car h4 p {
+    font-size: 20px;
+  }
+  .car-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+  }
+  .car-boxes {
+    height: 10px;
+    justify-items: center;
+    margin-top: 220px;
+  }
+  .car-details img {
+    align-items: center;
+  }
+
+  .car-price {
+    text-align: center;
+    margin-top: 170px;
+    height: 235px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .price {
+    display: flex;
+    padding: 10px;
+
+    gap: 10px;
+  }
+  .price button {
+    border: none;
+  }
+  .price button a {
+    text-decoration: none;
+  }
+  .Vehicles-details {
+    display: flex;
+    justify-content: center;
+  }
+  .all-vehicles {
+    justify-items: center;
+    border: 2px black solid;
+    margin-top: 780px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    height: 50px;
+    width: 200px;
+  }
+  .all-vehicles a {
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+  .TESTIMONIALS {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7fb;
+    height: 550px;
+    padding-top: 0.02px;
+    margin-top: 20px;
+  }
+  .clients {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .all-clients-1 {
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    height: 420px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .all-clients-2 {
+    display: none;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    height: 420px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+
+  #client-image-1 {
+    margin-top: 10px;
+
+    height: 200px;
+    width: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    overflow: hidden;
+    box-shadow: 0px 50px 100px 50px rgb(92, 09, 95, 95);
+  }
+  .all-clients p {
+    padding: 10px;
+  }
+  #client-image-2 {
+    margin-top: 10px;
+
+    height: 200px;
+    width: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    overflow: hidden;
+    box-shadow: 0px 50px 100px 50px rgb(92, 09, 95, 95);
+  }
+  #client-image-1 img {
+    margin-left: -115px;
+    margin-top: -55px;
+  }
+  #client-image-2 img {
+    margin-left: -115px;
+    margin-top: -55px;
+  }
+  .all-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-more {
+    color: #ffffff;
+    position: absolute;
+    background-color: #3083ff;
+    width: auto;
+    height: 200px;
+    padding: 30px;
+    border-radius: 0px;
+    margin-top: 40px;
+  }
+
+  .for-more h2 {
+    font-size: 40px;
+  }
+  .for-more p {
+    margin-top: 5px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(64, 59, 59);
+    color: #ffffff;
+    height: 320px;
+    margin-top: 200px;
+  }
+  .footer div {
+    display: none;
+  }
+  .footer p {
+    margin-top: 10px;
+  }
+  .download-app-1 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+/*tablet responsive*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-car {
+    display: none;
+  }
+  #min-nav {
+    display: none;
+  }
+  header {
+    height: 550px;
+  }
+  #name {
+    font-size: 15px;
+    margin-left: 170px;
+    margin-right: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .nvg {
+    margin-top: 20px;
+  }
+  nav a {
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    color: bla3k;
+    font-size: 11px;
+    align-items: center;
+  }
+  .text-car {
+    display: flex;
+    margin-top: 90px;
+  }
+  #about-1 {
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 40px;
+  }
+  #about-p {
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .car {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+    transform-origin: center;
+    margin-right: -290px;
+  }
+  .download-app {
+    display: flex;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: -180px;
+  }
+  .app img {
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+  }
+  .location {
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 3px #00000014;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .location:hover {
+    box-shadow: 0 12px 40px 5px rgba(18, 1, 151, 0.5);
+  }
+  .loc {
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+  }
+  .loc li {
+    padding: 0 20px;
+    border-right: 2px solid #4a4a4a4d;
+  }
+  .p-location {
+    color: #4a4a4a9c;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .btn-1 {
+    color: #ffffff;
+    background-color: #3083ff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+  }
+
+  .logo-car {
+    display: none;
+  }
+
+  .how {
+    color: #4a4a4a9c;
+
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .rent {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .booking {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .booking-items {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .booking img {
+    box-shadow: 0px 1px 2px 3px #00000014;
+    padding: 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+  }
+  .b-1 {
+    margin-top: 5px;
+    color: #000000;
+    font-size: 12px;
+  }
+  .b-2 {
+    margin-top: 1px;
+    color: #4a4a4a9c;
+    font-size: 10px;
+  }
+  .grid-article {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 450px;
+    grid-template-areas: "map aside";
+    margin-top: 20px;
+  }
+  .grid-item-1 {
+    grid-area: map;
+    background-image: url(../images/Oslo-Bus-Station-Norway-Google-Maps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .grid-item-2 {
+    justify-content: center;
+    grid-area: aside;
+    background-color: #f7f7fb;
+    padding-top: 20px;
+  }
+  .cars-aside {
+    display: flex;
+    justify-content: center;
+  }
+  .car-icon-aside {
+    padding-top: 20px;
+  }
+  .details-on-car {
+    display: flex;
+  }
+  .details-on-car h4,
+  p {
+    margin-left: 15px;
+    padding: 5px;
+  }
+  .car-icon-aside img {
+    box-shadow: 0px 1px 2px 3px #00000014;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  .car-icon-aside p {
+    font-size: 13px;
+  }
+  .aside {
+    justify-items: center;
+  }
+  .aside p {
+    font-size: 13px;
+  }
+  .aside h5,
+  h3,
+  .details-on-car {
+    text-align: center;
+  }
+  .car-1 {
+    position: absolute;
+    margin-left: -250px;
+    margin-top: 250px;
+  }
+
+  .car-2 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .car-3 {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+  .car-4 {
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 60px;
+  }
+  aside {
+    padding-left: 30px;
+  }
+  .car-details {
+    display: grid;
+    justify-content: center;
+    gap: 190px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "car1 car3"
+      "car2 car4";
+  }
+  .car-boxes {
+    height: 20px;
+    justify-items: center;
+  }
+  .car-details img {
+    align-items: center;
+  }
+
+  .car-price-1 {
+    grid-area: car1;
+    text-align: center;
+    margin-top: 20px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .car-price-2 {
+    grid-area: car2;
+    text-align: center;
+    margin-top: 20px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .car-price-3 {
+    grid-area: car3;
+    text-align: center;
+    margin-top: 20px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .car-price-4 {
+    grid-area: car4;
+    text-align: center;
+    margin-top: 20px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 3px #7725785a;
+  }
+  .price {
+    display: flex;
+    padding: 10px;
+    margin-top: 1px;
+  }
+  .price button {
+    border: none;
+  }
+  .price button a {
+    text-decoration: none;
+  }
+  .Vehicles-details {
+    display: flex;
+    justify-content: center;
+  }
+  .all-vehicles {
+    border: 2px black solid;
+    margin-top: 225px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    height: 50px;
+    width: 200px;
+  }
+  .all-vehicles :hover {
+    box-shadow: 0 12px 40px 5px rgba(18, 1, 151, 0.5);
+  }
+  .all-vehicles a {
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+  .all-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-more {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    background-color: #3083ff;
+
+    width: 500px;
+    height: 170px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+
+  .for-more h2 {
+    font-size: 40px;
+  }
+  .for-more p {
+    margin-top: 5px;
+  }
+}
+
+/*desktop responsive*/
+
+@media (min-width: 1025px) and (max-width: 1550px) {
+  #min-nav {
+    display: none;
+  }
 }
