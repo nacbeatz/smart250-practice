@@ -171,11 +171,11 @@ image .one {
   opacity: 50%;
 }*/
 .carrental {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 500px;
   margin-left: 150px;
   margin-top: 50px;
-  border: 1px solid whitesmoke;
+  border: 2px solid whitesmoke;
   border-radius: 10px;
 }
 .carrental img {
@@ -249,6 +249,68 @@ image .one {
 }
 .name {
   opacity: 50%;
+}
+#star {
+  display: flex;
+  flex-direction: row;
+}
+#star b {
+  position: relative;
+  top: 18px;
+}
+
+.caracts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#passengers p {
+  position: relative;
+  left: -60px;
+  top: -43px;
+}
+#manual p {
+  position: relative;
+  left: -60px;
+  top: -43px;
+}
+#conditioning {
+  position: relative;
+  left: -60px;
+  top: -43px;
+}
+#manual p {
+  position: relative;
+  left: -60px;
+  top: -43px;
+}
+.second {
+  position: relative;
+  left: -330px;
+  bottom: -30px;
+}
+.first {
+  position: relative;
+  left: -200px;
+  bottom: -30px;
+}
+#first {
+  position: relative;
+  left: -60px;
+  top: -60px;
+}
+#second {
+  position: relative;
+  left: -60px;
+  top: -65px;
+}
+#prices {
+  position: relative;
+  left: 120px;
+  top: -65px;
+}
+#rentnow {
+  color: blue;
+  font-size: x-large;
 }
 /*Laptop*/
 @media (min-width: 1024px) {
