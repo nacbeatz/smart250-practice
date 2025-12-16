@@ -280,7 +280,7 @@ nav a {
   margin-top: -6px;
   height: 80px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 2px 3px #00000014;
+  box-shadow: 0px 2px 3px 4px #55115e90;
   margin-left: 100px;
   border-radius: 10px;
   margin-right: 100px;
@@ -526,7 +526,19 @@ aside {
 .clients {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
+}
+
+.slide-one {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -90px;
+  transform: rotate(180deg);
+}
+.slide-two {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 650px;
 }
 .all-clients-1 {
   width: 300px;
@@ -640,6 +652,13 @@ aside {
     margin-left: 400px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 0px 1px 2px 3px #55115e90;
+    margin-right: 28px;
+  }
+  #min-nav img {
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 5px;
   }
   .nvg {
     display: none;
@@ -663,6 +682,7 @@ aside {
   }
   .download-app {
     justify-content: center;
+    margin-left: 0px;
     gap: 5px;
   }
   .app img {
@@ -778,10 +798,10 @@ aside {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    height: 250px;
+    height: 560px;
   }
   .car-boxes {
-    height: 10px;
+    height: 20px;
     justify-items: center;
     margin-top: 220px;
   }
@@ -791,7 +811,7 @@ aside {
 
   .car-price {
     text-align: center;
-    margin-top: 170px;
+    margin-top: 150px;
     height: 235px;
     border-radius: 5px;
     box-shadow: 0px 1px 2px 3px #7725785a;
@@ -799,7 +819,6 @@ aside {
   .price {
     display: flex;
     padding: 10px;
-
     gap: 10px;
   }
   .price button {
@@ -807,6 +826,7 @@ aside {
   }
   .price button a {
     text-decoration: none;
+    padding: 1px;
   }
   .Vehicles-details {
     display: flex;
@@ -815,7 +835,7 @@ aside {
   .all-vehicles {
     justify-items: center;
     border: 2px black solid;
-    margin-top: 780px;
+    margin-top: 500px;
     border-radius: 50px;
     background-color: #ffffff;
     height: 50px;
@@ -840,6 +860,17 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 1px;
+  }
+  .slide-one {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -90px;
+    transform: rotate(180deg);
+  }
+  .slide-two {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 330px;
   }
   .all-clients-1 {
     width: 300px;
@@ -1158,8 +1189,7 @@ aside {
   .car-details {
     display: grid;
     justify-content: center;
-    gap: 190px;
-    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "car1 car3"
@@ -1192,7 +1222,7 @@ aside {
   .car-price-3 {
     grid-area: car3;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 110px;
     height: 210px;
     border-radius: 5px;
     box-shadow: 0px 1px 2px 3px #7725785a;
@@ -1200,7 +1230,7 @@ aside {
   .car-price-4 {
     grid-area: car4;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 110px;
     height: 210px;
     border-radius: 5px;
     box-shadow: 0px 1px 2px 3px #7725785a;
