@@ -1,9 +1,212 @@
-body {
-    background-color:green;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+:root {
+    --primary-color: #3083FF; /*Title, buttons,.....*/
+    --black-color: #111;   /*default color*/
+    --black-light: #5a5a5a;
+    --background-color: #f9fbfc;
+    --footer-bg: #1E242D;
+    --title-mob:16px;
+    --title-tab:20px;
+    --title-desk:30px;
+    --text-mob:12px;
+    --text-tab: 14px;
+    --txt-desk:16px;
+  }
+header {
+    background-color: var(--background-color);
+    padding: 10px 20px;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+.logo   {
+  width: 60px;
+  height:60px;
+  }
+nav {
+    display: none;
+  }
+
+.burger_menu {
+    cursor: pointer;
+  }
+.burger_menu img {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+
+.burger_menu button {
+    display:none;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  } 
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }  
+  
+ main {
+    padding: 20px;
+    background-color: var(--background-color);
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+footer {
+    background-color: var(--footer-bg);
+    width: 100%;
+    padding: 10px 20px;
+    color: var(--black-light)
+  } 
+.hero_section {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height:calc(100vh - 170px);
+  }
+.hero_section aside {
+    width: 100%;
+    margin-top: 60px;
+    padding:20px;
+    height:100%;
+  }
+.hero_text {   
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center ;
+height:100%;
 }
-main {
-    background-color: rgb(15, 1, 1);
-}
-h2 {
-    background-color: rgb(7, 7, 7);
-}
+
+  .hero_section img {
+    display:none;
+    min-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    transform: scaleX(-1);
+    position: absolute;
+    margin-top:60px;
+  }
+  .hero_section h1 {
+    font-size: 35px;
+    color: var(--black-color);
+    margin-bottom: 10px;
+  }
+  .hero_section aside span {
+    color: var(--primary-color);
+  }
+
+  .search_container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--black-light);
+    width: 100%;
+  }
+
+
+
+  /*TABLET*/
+  @media (min-width: 769px) {
+    .hero_section { 
+        flex-direction: row;
+        height:70vh;
+    }
+    .hero_section img {
+        display:block;
+        right: -350px;
+      }
+      .hero_section aside {
+        width: 50%;
+        margin-top: 60px;
+    }
+    .hero_section h1 {
+        font-size: 50px;
+        }
+
+      .logo   {
+        width: 80px;
+        height:80px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+          }
+          nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 20px;  
+            width: 100%;
+          }
+        nav ul li a {
+            text-decoration: none;
+            color: var(--black-color);
+            font-size: var(--text-tab);
+            font-weight: 800;
+          }
+        
+          li a:hover {
+            color: var(--primary-color);
+          }
+
+          .burger_menu img {
+            display: none;
+          }
+          .burger_menu button {
+            display: block;
+          }
+
+  }
+
+    /*DESKTOP*/
+ @media (min-width: 1024px) {
+
+
+    .hero_section img {
+        right: -200px;
+      }
+        
+          .logo   {
+            width: 80px;
+            height:80px;
+            }
+
+            nav ul li a {
+                font-size: var(--text-desk);
+              }
+
+  
+    }

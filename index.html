@@ -1,106 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Metadata section: provides info about the document -->
-  <meta charset="UTF-8"> <!-- Character encoding (supports all languages) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive scaling on mobile -->
-  <meta name="description" content="Learn the full structure of a web page in HTML5.">
-  <meta name="author" content="Crox Studios">
-  
-  <!-- Page title (appears on browser tab) -->
-  <title>My First Web Page</title>
-
-  <!-- Link external files -->
-  <link rel="stylesheet" href="styles/test.css"> <!-- External CSS file -->
-  <link rel="icon" href="favicon.ico"> <!-- Website tab icon -->
-
-  <!-- Internal CSS (optional) -->
-
-  <!-- External JS (optional, can also go in the body) -->
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
-
 <body>
- 
-  <header>
-     <div style="text-align: center;">
-       <div style="text-align: center; color: darkgreen; background-color: rgb(147, 243, 232); border-radius: 20px;" class="m-3 p-5"> 
-        <H1>Welocome to my website</H1>
+<header>
+<img src="images/logo.png" alt="" class="logo">
+<nav>
+  <ul>
+    <li><a href="#">Become a rental</a></li>
+    <li><a href="#">Rental deal</a></li>
+    <li><a href="#">How it works?</a></li>
+    <li><a href="#">Why Choose us?</a></li>
+  </ul>
+</nav>
+<div class="burger_menu">
+  <button href="">Login</button>
+  <img src="images/icons8-menu.png" alt="">
+</div>
+</header>
+
+<main>
+  <section class="hero_section">
+    <aside>
+      <div class="hero_text">
+        <h1>Find, book, and 
+          rental car in <span>Easy</span>
+          steps.</h1>
+        <p>Experience the freedom of the open road with our hassle-free car rental service.</p>
+        <button class="hero_button">Book Now</button>
+      </div>
+      <div class="hero_image">
+        <img src="images/hero_car.png" alt="">
+      </div>
+    </aside>
+    <img
+      src="images/toppng.com-mg5-blue-car-2020-789x411.png"
+      alt=""
+      class="hero_background">
+  </section>
+
+  
+<section class="search_section">
+  <div class="search_container">
+    <div class="search_item">
+      <label for="pickup_location">Pickup Location</label>
+      <input type="text" id="pickup_location" placeholder="Enter location">
     </div>
-    <nav>
-      <a href="#home">Home</a> 
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-   <!-- MAIN CONTENT AREA -->
-   <main>
-    <!-- SECTION 1 -->
-    <section id="home" >
-      <h2 class="home_title">Home Section</h2>
-      <p>We are a creative studio focused on design and technology education, inspiring innovation through hands-on learning and modern digital experiences.</p>
-      <figure>
-        <img src="images/img-edit 2.png" alt="Decorative banner" width="400">
-        <figcaption>Our website’s hero image</figcaption>
-      </figure>
-    </section>
-
-    <!-- SECTION 2 with an ARTICLE -->
-    <div id="about">
-      <h2 class="home_title">About Section</h2>
-      <article>
-        <h3>Who We Are</h3>
-        <p>We are a creative studio passionate about design and technology education.<br>Our goal is to empower learners and creators with the skills to turn ideas into reality.<br> Through innovative training, modern tools, and hands-on experiences, we make learning design and tech simple, fun, and impactful.</p>
-        
-      </article>
-
-      <!-- ASIDE: supplementary info -->
-      <aside>
-        <h4>Quick Facts</h4>
-        <ul>
-          <li>Founded: 2020</li>
-          <li>Based in: Belgium</li>
-          <li>Specialty: Web Design & AI Tools</li>
-        </ul>
-      </aside>
+    <div class="search_item">
+      <label for="pickup_date">Pickup Date</label>
+      <input type="date" id="pickup_date">
     </div>
-
-    <!-- DISPLAY na VISIBILITY, POSITION -->
-    <section class="contact">
-      <h2 class="home_title" id="last_title">Contact Us</h2>
-      <form action="#" method="post"> <!-- DISPLAY: INLINE -->
-        
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <div class="search_item">
+      <label for="return_date">Return Date</label>
+      <input type="date" id="return_date">
     </div>
-
-    <div class="form-group">
-         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <div class="search_item">
+      <button class="search_button">Search</button>
     </div>
-    <div class="form-group">
+  </div>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-    </div>
+</section>
+</main>
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </main>
+<footer>
+  Footer
+</footer>
 
-  <!-- FOOTER: bottom of the page -->
-  <footer>
-    <address >
-      Contact us at <a href="mailto:fredmugisha094@gmail.com">fredmugisha094@gmail.com</a>
-    </address>
-    <p>&copy; 2025 smart250. All rights reserved.</p>
-  </footer>
 
-  <!-- Optional Scripts (placed at bottom for performance) -->
-  <script>
-    console.log("Welcome to My Website!");
-  </script>
+
+
+
+
+
 </body>
 </html>
