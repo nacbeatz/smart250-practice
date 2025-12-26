@@ -1,0 +1,66 @@
+* {
+  text-decoration: 0;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-color: #3083ff; /*button, icons,..*/
+  --black-color: #111;
+  --black-light: #5a5a5a;
+  --background-color: #f9fbfc;
+  --text-mob: 12px;
+  --text-tab: 14px;
+  --text-desk: 16px;
+}
+#carentall {
+  display: none;
+}
+nav {
+  display: none;
+}
+.login {
+  display: none;
+}
+.logomenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*Tablet*/
+@media (min-width: 769px) {
+  .logomenu {
+    display: none;
+  }
+  #carentall {
+    display: block;
+  }
+  nav {
+    display: flex;
+  }
+  .login {
+    display: block;
+  }
+}
+/*Desktop*/
+@media (min-width: 1025px) {
+  .logomenu {
+    display: none;
+  }
+  #carentall {
+    display: block;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+  }
+  nav ul li {
+    display: inline;
+  }
+  .login {
+    display: block;
+  }
+}
