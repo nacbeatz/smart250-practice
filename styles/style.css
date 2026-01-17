@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #3083ff;
+  --secondary-color: #f7f7fb;
+  --text-color: #4a4a4a9c;
+  --background-color: #f9f9f9;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -11,8 +17,8 @@ a {
 
 html,
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: Arial;
+  background-color: var(--background-color);
 }
 body {
   display: flex;
@@ -25,7 +31,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   width: 100%;
 }
 header > img:first-child {
@@ -37,7 +42,6 @@ header > img:first-child {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-
   padding-right: 8px;
   position: relative;
 }
@@ -46,7 +50,7 @@ header > img:first-child {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #f7f7fb;
+  background-color: var(--secondary-color);
 }
 #first {
   position: relative;
@@ -116,15 +120,7 @@ main {
 .loc {
   text-align: center;
 }
-.loc::after {
-  content: "";
-  position: absolute;
-  width: 10%;
-  height: 2px;
-  background-color: #ccc;
-  margin-top: 20px;
-  left: 45%;
-}
+
 #loc1 {
   text-align: center;
 }
@@ -194,14 +190,12 @@ h3 {
 .step::before {
   content: "";
   position: absolute;
-
   box-shadow: 0px 6px 22.9px 0px #00000014;
   background-color: white;
   width: 131px;
   height: 131px;
   border-radius: 20px;
 }
-
 .steps > p {
   text-align: center;
   margin-top: 10px;
@@ -262,7 +256,6 @@ aside ol {
   justify-content: center;
   gap: 40px;
   margin-top: 40px;
-
   margin-left: 40px;
 }
 aside ol li {
@@ -302,7 +295,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   left: 20px;
 }
 #rentaldeals {
@@ -316,7 +308,6 @@ p {
 .deals {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: space-between;
   gap: 20px;
@@ -380,7 +371,6 @@ p {
 #testimonials {
   width: 480px;
   margin-top: 60px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -466,7 +456,6 @@ footer {
   margin-top: 30px;
   position: relative;
 }
-
 .download {
   background: linear-gradient(135deg, #4d9fff, #1d7cff);
   width: 100%;
@@ -506,6 +495,15 @@ footer {
   footer {
     background-color: none;
   }
+  .loc::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 20px;
+    left: 45%;
+  }
 }
 /* tablet*/
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -542,7 +540,6 @@ footer {
     align-items: center;
     position: relative;
     overflow: hidden;
-
     margin-top: 30px;
   }
   #car1 > :first-child {
@@ -571,6 +568,10 @@ footer {
     justify-content: space-between;
     width: 90%;
     position: relative;
+  }
+  .loc {
+    border-right: 2px solid #ccc;
+    padding-right: 8%;
   }
   main {
     padding-top: 0px;
@@ -716,13 +717,11 @@ footer {
     padding: 0px;
     margin: 30px;
     width: 100%;
-
     font-size: 50px;
   }
 
   .home {
     width: 50%;
-
     margin-left: 80px;
   }
   .location {
@@ -730,6 +729,10 @@ footer {
     justify-content: space-between;
     width: 90%;
     position: relative;
+  }
+  .loc {
+    border-right: 2px solid #ccc;
+    padding-right: 9%;
   }
   .carlogo {
     display: flex;
@@ -805,7 +808,6 @@ footer {
   .download {
     width: 70%;
     position: absolute;
-
     top: -50%;
     left: 16%;
     padding: 70px 20px;
